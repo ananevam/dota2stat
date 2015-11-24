@@ -17,7 +17,6 @@
 /tmp
 
 /.idea/
-/config/database.yml
-/config/initializers/dota2api.rb
 /.ruby-version
 /.ruby-gemset
+/.env
