@@ -1,0 +1,69 @@
+.row
+  .col-md-6
+    .media
+      .media-left
+        =image_tag @user.image_url
+      .media-body
+        %h4.media-heading
+          =@user.nickname
+
+  .col-md-6
+    %table{:class=>"table table-striped table-condensed"}
+      %thead
+        %tr
+          %th LAST MATCH
+          %th RECORD
+          %th WIN RATE
+      %tbody
+        %tr
+          %td
+            =@user.all_matches.order(:id => :desc).first.end_time.to_s(:long)
+          %td
+            %span{:class => "text-success"}
+              =@user.win_matches.count
+            \-
+            %span{:class => "text-danger"}
+              =@user.lose_matches.count
+          %td
+            =win_rate_format @user.win_rate(@user.all_matches)
+
+.row
+  .col-md-8
+    = render 'matches_table'
+
+  .col-md-4.right-column
+    = render 'overview_table'
+    = render :partial => 'right_table', :locals => { |
+        :th1_title => "Lobby Type",                       |
+        :tr1_title => "Normal MM",                        |
+        :tr2_title => "Ranked MM",                        |
+        :tr1_matches => @user.normal_mm_matches,          |
+        :tr2_matches => @user.ranked_mm_matches           |
+      } |
+    -#
+    = render :partial => 'right_table', :locals => { |
+        :th1_title => "Game Mode",                       |
+        :tr1_title => "All Pick",                        |
+        :tr2_title => "Other",                        |
+        :tr1_matches => @user.all_pick_matches,          |
+        :tr2_matches => @user.game_mode_other_matches           |
+      }  |
+    -#
+
+    = render :partial => 'right_table', :locals => { |
+      :th1_title => "Faction",                        |
+      :tr1_title => "Radiant",                        |
+      :tr2_title => "Dire",                           |
+      :tr1_matches => @user.radiant_matches,          |
+      :tr2_matches => @user.dire_matches,              |
+      }     |
+    -#
+
+    = render :partial => 'right_table', :locals => { |
+      :th1_title => "Region",                        |
+      :tr1_title => "Russia",                        |
+      :tr2_title => "Other",                           |
+      :tr1_matches => @user.russia_matches,          |
+      :tr2_matches => @user.region_other_matches,              |
+      }      |
+    -#

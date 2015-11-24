@@ -1,0 +1,33 @@
+.panel.panel-default.panel-match-overview
+  .panel-heading
+    %h3.panel-title
+      Match ##{@match.id}
+  %table.table.table-striped.table-condensed
+    %thead
+      %tr
+        %th SKILL BRACKET
+        %th LOBBY TYPE
+        %th GAME MODE
+        %th REGION
+        %th DURATION
+        %th MATCH ENDED
+    %tbody
+      %tr
+        %td
+        %td= @match.lobby.name
+        %td= @match.mode.name
+        %td= @match.region.name
+        %td= duration_format(@match.duration)
+        %td= @match.end_time.to_s(:long)
+.h-victory-team
+  %h3
+    = @match.win
+    victory
+.panel.panel-default.panel-team-table
+  .panel-heading
+    %h3.panel-title radiant
+  = render :partial => 'team_table', :locals => {:players => @match.radiant_players }
+.panel.panel-default.panel-team-table
+  .panel-heading
+    %h3.panel-title dire
+  = render :partial => 'team_table', :locals => {:players => @match.dire_players }

@@ -1,0 +1,63 @@
+%table.table.table-striped.table-condensed
+  %thead
+    %tr
+      %th
+      %th Nickname
+      %th
+      %th Level
+      %th K
+      %th D
+      %th A
+      %th KDA
+      %th Gold
+      %th LH
+      %th DN
+      %th XPM
+      %th GPM
+      %th HD
+      %th HH
+      %th TD
+      %th Items
+  %tbody
+    - players.each do |player|
+      %tr
+        %td= image_tag player.hero.picture_url, :style=>'width:43px;height:24px;'
+        %td
+          - if player.user
+            = link_to(player.user.nickname, player_path(player.user.account_id))
+          - else
+            = link_to("Dotabuff", "http://www.dotabuff.com/players/#{player.account_id}", :target => "_blank")
+        %td
+          = player.user ? image_tag(player.user.image_url, :style => 'width:24px;height:24px;') : ''
+        %td= player.level
+        %td= player.kills
+        %td= player.deaths
+        %td= player.assists
+        %td= sprintf("%.1f", player.kda)
+        %td= how_k(player.gold_earned)
+        %td= player.last_hits
+        %td= player.denies
+        %td= player.xp_per_min
+        %td= player.gold_spent
+        %td= how_k(player.hero_damage)
+        %td= how_k(player.hero_healing)
+        %td= how_k(player.tower_damage)
+        %td
+          - player.items.each do |item|
+            = image_tag item.picture_url, :style => 'width:33px;height:24px;'
+    %tr
+      %td{:colspan => "3"}
+      %td= players.sum(&:level)
+      %td= players.sum(&:kills)
+      %td= players.sum(&:deaths)
+      %td= players.sum(&:assists)
+      %td= sprintf("%.1f", players_kda(players))
+      %td= how_k(players.sum(&:gold_earned))
+      %td= players.sum(&:last_hits)
+      %td= players.sum(&:denies)
+      %td= players.sum(&:xp_per_min)
+      %td= players.sum(&:gold_spent)
+      %td= how_k(players.sum(&:hero_damage))
+      %td= how_k(players.sum(&:hero_healing))
+      %td= how_k(players.sum(&:tower_damage))
+      %td
