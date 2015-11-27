@@ -29,6 +29,12 @@
 
 .row
   .col-md-8
+    .panel.panel-default.panel-team-table
+      .panel-heading
+        %h3.panel-title
+          Most played heroes
+      = render 'most_played_table'
+
     = render 'matches_table'
 
   .col-md-4.right-column

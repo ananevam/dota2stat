@@ -1,0 +1,19 @@
+%table{:class=>"table table-striped table-condensed table-matches"}
+  %thead
+    %tr
+      %th{:colspan=>"2"}Hero
+      %th Matches Played
+      %th Win Rate
+      %th KDA Ratio
+  %tbody
+    - @most_played_heroes.each do |player|
+      %tr
+        %td
+          =image_tag player.hero.picture_url, :style=>'width:43px;height:24px;'
+        %td
+          =player.hero.localized_name
+        %td
+          =player.count_games
+        %td
+
+        %td
