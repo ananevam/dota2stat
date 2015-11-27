@@ -124,5 +124,34 @@ namespace :dota2stat do
       end
     end
 
+    desc "Transfer matches from dotabuff"
+    task :transfer_from_dotabuff, [:account_id] => :environment do |task, args|
+      account_id = args[:account_id]
+      user = User.find_by_account_id!(account_id)
+
+      base_url = "http://www.dotabuff.com/players/#{user.account_id}/matches"
+
+      page_number = 1
+      loop do
+        page = Nokogiri::HTML(open("#{base_url}?page=#{page_number}"))
+
+        break if page.css('.cell-large a').count == 0
+
+        page.css('.cell-large a').each do |a|
+          match_id = a["href"].to_s.scan(/[0-9]+/)[0]
+          unless match = Match.find_by_id(match_id)
+            json_detail_match = Dota2api.get_match_details({:match_id => match_id})
+            match = Match.create_from_json(json_detail_match)
+
+            print "Update match #{match.id}\r\n"
+          else
+            print "Match #{match.id} found\r\n"
+          end
+        end
+        page_number = page_number + 1
+      end
+    end
+
+
   end
 end
