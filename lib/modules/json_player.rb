@@ -12,13 +12,13 @@ module JsonPlayer
       player[field] = json_player[field]
     end
 
-    player.item_0_id = json_player[:item_0]
-    player.item_1_id = json_player[:item_1]
-    player.item_2_id = json_player[:item_2]
-    player.item_3_id = json_player[:item_3]
-    player.item_4_id = json_player[:item_4]
-    player.item_5_id = json_player[:item_5]
-
+    json_item_ids = 0.upto(5).map{|num| json_player["item_#{num}".to_sym]}
+    player.items.delete_all
+    json_item_ids.each do |item_id|
+      if item = Item.find_by_id(item_id)
+        player.items << item
+      end
+    end
     player
 
   end

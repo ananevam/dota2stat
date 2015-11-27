@@ -13,11 +13,13 @@ class Player < ActiveRecord::Base
   belongs_to :item_4, :foreign_key => :item_4_id, :class_name => "Item"
   belongs_to :item_5, :foreign_key => :item_5_id, :class_name => "Item"
 
+  has_and_belongs_to_many :items
+
   has_many :matches
 
   PLAYER_SLOT_SPLIT_ID = 128
 
-  def items
+  def items_old
     0.upto(5).map{|num| self.try("item_#{num}")}.compact
   end
 

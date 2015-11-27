@@ -124,6 +124,15 @@ namespace :dota2stat do
       end
     end
 
+    desc "temp_items"
+    task :temp_items => :environment do
+      Player.find_each do |player|
+        player.items_old.each do |item|
+          player.items << item
+        end
+      end
+    end
+
 
   end
 end
