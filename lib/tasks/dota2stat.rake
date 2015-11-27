@@ -99,24 +99,25 @@ namespace :dota2stat do
           json_matches.each do |json_match|
             first_match_id = json_match[:match_id] if first_match_id == nil
 
-            params[:start_at_match_id] = json_match[:match_id]
+            user_last_match_found = user.last_updated_match_id == json_match[:match_id]
+            json_matches_last_pack = json_matches.length < 2
 
+            if user_last_match_found or json_matches_last_pack
+              user.last_updated_match_id = first_match_id
+              user.save
+              is_break_loop = true
+            end
+            if user_last_match_found
+              break
+            end
+
+            params[:start_at_match_id] = json_match[:match_id]
             unless match = Match.find_by_id(json_match[:match_id])
               json_detail_match = Dota2api.get_match_details({:match_id => json_match[:match_id]})
-
               match = Match.create_from_json(json_detail_match)
 
               print "Update match #{match.id}\r\n"
-
             end
-            if user.last_updated_match_id == match.id or json_matches.length < 2
-              unless first_match_id == nil
-                user.last_updated_match_id = first_match_id
-                user.save
-              end
-              is_break_loop = true
-            end
-
           end
           break if is_break_loop
         end
