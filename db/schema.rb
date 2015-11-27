@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151127112917) do
+ActiveRecord::Schema.define(version: 20151127115229) do
 
   create_table "heroes", force: :cascade do |t|
     t.string   "name",           limit: 255
@@ -81,12 +81,6 @@ ActiveRecord::Schema.define(version: 20151127112917) do
     t.string   "account_id",    limit: 255
     t.integer  "player_slot",   limit: 4
     t.integer  "hero_id",       limit: 4
-    t.integer  "item_0_id",     limit: 4
-    t.integer  "item_1_id",     limit: 4
-    t.integer  "item_2_id",     limit: 4
-    t.integer  "item_3_id",     limit: 4
-    t.integer  "item_4_id",     limit: 4
-    t.integer  "item_5_id",     limit: 4
     t.integer  "kills",         limit: 4,   default: 0
     t.integer  "deaths",        limit: 4,   default: 0
     t.integer  "assists",       limit: 4,   default: 0
