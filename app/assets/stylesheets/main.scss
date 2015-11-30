@@ -23,7 +23,7 @@
   }
 }
 .pagination{
-  margin: 0 0 20px 20px;
+  margin: 20px 0 20px 20px;
 }
 .right-column{
   .table tr:first-child th:first-child { width: 142px; }
@@ -41,4 +41,8 @@ a{
     color:#A9CF54;
     text-decoration: underline!important;
   }
+}
+acronym {
+  border-bottom: 1px dashed white; /* Подчеркивание текста */
+  cursor: default;
 }

@@ -4,7 +4,9 @@
       %th
       %th= t('table.nickname')
       %th
-      %th= t('table.level')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.level_tip')}
+          = t('table.level')
       %th= t('table.k')
       %th= t('table.d')
       %th= t('table.a')
@@ -33,7 +35,7 @@
         %td= player.kills
         %td= player.deaths
         %td= player.assists
-        %td= sprintf("%.2f", player.kda)
+        %td= kda_format(player.kda)
         %td= how_k(player.gold_earned)
         %td= player.last_hits
         %td= player.denies
@@ -51,7 +53,7 @@
       %td= players.sum(&:kills)
       %td= players.sum(&:deaths)
       %td= players.sum(&:assists)
-      %td= sprintf("%.2f", players_kda(players))
+      %td= kda_format(players_kda(players))
       %td= how_k(players.sum(&:gold_earned))
       %td= players.sum(&:last_hits)
       %td= players.sum(&:denies)

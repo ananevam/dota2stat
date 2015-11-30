@@ -1,31 +1,5 @@
-.row
-  .col-md-6
-    .media
-      .media-left
-        =image_tag @user.image_url
-      .media-body
-        %h4.media-heading
-          =@user.nickname
-
-  .col-md-6
-    %table{:class=>"table table-striped table-condensed"}
-      %thead
-        %tr
-          %th= t('table.last_match')
-          %th= t('table.record')
-          %th= t('table.win_rate')
-      %tbody
-        %tr
-          %td
-            =l @user.all_matches.order(:id => :desc).first.end_time, :format => :long
-          %td
-            %span{:class => "text-success"}
-              =@user.win_matches.count
-            \-
-            %span{:class => "text-danger"}
-              =@user.lose_matches.count
-          %td
-            =win_rate_format @user.win_rate(@user.all_matches)
+= render 'user_overview'
+= render 'tabs'
 
 .row
   .col-md-8
@@ -35,7 +9,11 @@
           = t('table.most_played_heroes')
       = render 'most_played_table'
 
-    = render 'matches_table'
+    .panel.panel-default.panel-team-table
+      .panel-heading
+        %h3.panel-title
+          = t('table.latest_matches')
+      = render :partial => 'matches_table', :locals => {:detail => false}
 
   .col-md-4.right-column
     = render 'overview_table'

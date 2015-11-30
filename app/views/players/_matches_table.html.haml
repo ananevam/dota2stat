@@ -1,3 +1,4 @@
+
 %table{:class=>"table table-striped table-condensed table-matches"}
   %thead
     %tr
@@ -6,8 +7,12 @@
       %th= t('table.type')
       %th= t('table.duration')
       %th= t('table.kda')
+      - if detail
+        %th= t('table.kda_ratio')
+        %th= t('table.gold')
+        %th= t('table.items')
   %tbody
-    - @matches.each do |match|
+    - @last_matches.each do |match|
       %tr
         %td
           =image_tag match.player_by_user(@user).hero.picture_url, :style=>'width:43px;height:24px;'
@@ -32,5 +37,13 @@
           =match.player_by_user(@user).deaths
           \/
           =match.player_by_user(@user).assists
+        - if detail
+          %td
+            = kda_format(match.player_by_user(@user).kda)
+          %td
+            = how_k(match.player_by_user(@user).gold_earned)
+          %td
+            - match.player_by_user(@user).items.each do |item|
+              = image_tag item.picture_url, :style => 'width:33px;height:24px;'
 
-=paginate @matches
+=paginate @last_matches if defined?(@last_matches.total_pages)

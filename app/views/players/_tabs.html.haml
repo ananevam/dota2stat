@@ -1,0 +1,5 @@
+%ul{class: "nav nav-pills"}
+  %li{role: :presentation, class: current_page?(player_path(@user.account_id)) ? 'active':''}
+    =link_to t('table.overview'), player_path(@user.account_id)
+  %li{role: :presentation, :class => current_page?(player_matches_path(@user.account_id)) ? 'active':''}
+    =link_to t('table.matches'), player_matches_path(@user.account_id)

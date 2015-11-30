@@ -9,6 +9,8 @@ Rails.application.routes.draw do
     root 'main#index'
 
     match 'matches/:id' => 'matches#show', :as => :match, :via => [:get]
+
     match 'players/:account_id' => 'players#show', :as => :player, :via => [:get]
+    get 'players/:account_id/matches', to: "players#matches", as: :player_matches
   end
 end

@@ -24,6 +24,7 @@ ru:
     match_ended: "Матч окончен"
     nickname: "Игрок"
     level: "Уровень"
+    level_tip: "Уровень героя"
     k: "У"
     d: "С"
     a: "П"
@@ -36,3 +37,12 @@ ru:
     hh: "ЛГ"
     td: "УС"
     items: "Предметы"
+    latest_matches: "Последние матчи"
+
+  views:
+    pagination:
+      truncate: "..."
+      next: "Дальше"
+      last: "Последняя"
+      first: "Первая"
+      previous: "Предыдущая"

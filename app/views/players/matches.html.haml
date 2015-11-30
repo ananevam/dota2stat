@@ -1,0 +1,10 @@
+= render 'user_overview'
+= render 'tabs'
+
+.row
+  .col-md-12
+    .panel.panel-default.panel-team-table
+      .panel-heading
+        %h3.panel-title
+          = t('table.latest_matches')
+      = render :partial => 'matches_table', :locals => {:detail => true}
