@@ -5,15 +5,15 @@
   %table.table.table-striped.table-condensed
     %thead
       %tr
-        %th SKILL BRACKET
-        %th LOBBY TYPE
-        %th GAME MODE
-        %th REGION
-        %th DURATION
-        %th MATCH ENDED
+        /%th SKILL BRACKET
+        %th= t('table.lobby_type')
+        %th= t('table.game_mode')
+        %th= t('table.region')
+        %th= t('table.duration')
+        %th= t('table.match_ended')
     %tbody
       %tr
-        %td
+        /%td
         %td= @match.lobby.name
         %td= @match.mode.name
         %td= @match.region.name

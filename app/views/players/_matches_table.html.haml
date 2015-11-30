@@ -1,11 +1,11 @@
 %table{:class=>"table table-striped table-condensed table-matches"}
   %thead
     %tr
-      %th{:colspan=>"2"}Hero
-      %th Result
-      %th Type
-      %th Duration
-      %th KDA
+      %th{:colspan=>"2"}= t('table.hero')
+      %th= t('table.result')
+      %th= t('table.type')
+      %th= t('table.duration')
+      %th= t('table.kda')
   %tbody
     - @matches.each do |match|
       %tr
@@ -15,9 +15,13 @@
           =link_to match.player_by_user(@user).hero.localized_name, match
         %td
           - if match.player_by_user(@user).win?
-            <span class="label label-success">Won Match</span>
+            <span class="label label-success">
+            =t('table.won_match')
+            </span>
           - else
-            <span class="label label-danger">Lost Match</span>
+            <span class="label label-danger">
+            =t('table.lose_match')
+            </span>
         %td
           =match.lobby ? match.lobby.name : ""
         %td

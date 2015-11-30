@@ -1,0 +1,12 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+ru:
+  devise:
+    links:
+      sign_in: "Войти через Steam"
+      sign_out: "Выйти"
+
+    sessions:
+      signed_in: "Успешный вход"
+      signed_out: "Выход"
+      already_signed_out: "Выход"

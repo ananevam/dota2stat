@@ -21,3 +21,18 @@
 
 en:
   hello: "Hello world"
+  table:
+    last_match: "LAST MATCH"
+    record: "RECORD"
+    win_rate: "WIN RATE"
+    most_played_heroes: "Most played heroes"
+    hero: "Hero"
+    matches_played: "Matches Played"
+    kda_ratio: "KDA Ratio"
+    result: "Result"
+    type: "Type"
+    duration: "Duration"
+    kda: "KDA"
+    won_match: "Won Match"
+    lose_match: "Lose Match"
+
