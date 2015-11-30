@@ -10,11 +10,11 @@
     - @matches.each do |match|
       %tr
         %td
-          =image_tag match.players.find_by_account_id(@user.account_id).hero.picture_url, :style=>'width:43px;height:24px;'
+          =image_tag match.player_by_user(@user).hero.picture_url, :style=>'width:43px;height:24px;'
         %td
-          =link_to match.players.find_by_account_id(@user.account_id).hero.localized_name, match
+          =link_to match.player_by_user(@user).hero.localized_name, match
         %td
-          - if match.players.find_by_account_id(@user.account_id).win?
+          - if match.player_by_user(@user).win?
             <span class="label label-success">Won Match</span>
           - else
             <span class="label label-danger">Lost Match</span>
@@ -23,10 +23,10 @@
         %td
           =duration_format match.duration
         %td
-          =match.players.find_by_account_id(@user.account_id).kills
+          =match.player_by_user(@user).kills
           \/
-          =match.players.find_by_account_id(@user.account_id).deaths
+          =match.player_by_user(@user).deaths
           \/
-          =match.players.find_by_account_id(@user.account_id).assists
+          =match.player_by_user(@user).assists
 
 =paginate @matches

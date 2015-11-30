@@ -39,6 +39,7 @@
 
   .col-md-4.right-column
     = render 'overview_table'
+
     = render :partial => 'right_table', :locals => { |
         :th1_title => "Lobby Type",                       |
         :tr1_title => "Normal MM",                        |
@@ -47,6 +48,7 @@
         :tr2_matches => @user.ranked_mm_matches           |
       } |
     -#
+
     = render :partial => 'right_table', :locals => { |
         :th1_title => "Game Mode",                       |
         :tr1_title => "All Pick",                        |
@@ -57,19 +59,19 @@
     -#
 
     = render :partial => 'right_table', :locals => { |
-      :th1_title => "Faction",                        |
-      :tr1_title => "Radiant",                        |
-      :tr2_title => "Dire",                           |
-      :tr1_matches => @user.radiant_matches,          |
-      :tr2_matches => @user.dire_matches,              |
+        :th1_title => "Faction",                        |
+        :tr1_title => "Radiant",                        |
+        :tr2_title => "Dire",                           |
+        :tr1_matches => @user.radiant_matches,          |
+        :tr2_matches => @user.dire_matches,              |
       }     |
     -#
 
     = render :partial => 'right_table', :locals => { |
-      :th1_title => "Region",                        |
-      :tr1_title => "Russia",                        |
-      :tr2_title => "Other",                           |
-      :tr1_matches => @user.russia_matches,          |
-      :tr2_matches => @user.region_other_matches,              |
+        :th1_title => "Region",                        |
+        :tr1_title => "Russia",                        |
+        :tr2_title => "Other",                           |
+        :tr1_matches => @user.russia_matches,          |
+        :tr2_matches => @user.region_other_matches,              |
       }      |
     -#

@@ -20,4 +20,8 @@ class Match < ActiveRecord::Base
   def end_time
     start_time + duration.seconds
   end
+
+  def player_by_user user
+    players.detect{|p| p.account_id == user.account_id}
+  end
 end
