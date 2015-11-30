@@ -34,3 +34,10 @@
 .panel-team-table{
   .table tbody tr:first-child td:first-child { width: 55px; }
 }
+a{
+  color:#A9CF54;
+  text-decoration: none!important;
+  &:hover{
+    color:#A9CF54;
+  }
+}

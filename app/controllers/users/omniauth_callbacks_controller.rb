@@ -5,6 +5,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     @user = User.connect_to_steam request.env["omniauth.auth"].to_hash
 
     sign_in @user
+    current_user.remember_me!
     redirect_to root_path
   end
 end
