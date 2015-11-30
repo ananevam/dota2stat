@@ -15,5 +15,7 @@
         %td
           =player.count_games
         %td
-
+          =win_rate_format @user.win_rate(@user.matches_by_hero(player.hero))
         %td
+          = sprintf("%.2f", player.hero.kda_by_user(@user))
+

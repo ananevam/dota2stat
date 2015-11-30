@@ -78,4 +78,8 @@ class User < ActiveRecord::Base
   def region_other_matches
     self.all_matches.where("matches.cluster NOT IN (?)", Region::RUSSIA_ID)
   end
+
+  def matches_by_hero hero
+    Match.joins(:players).where("players.account_id" => self.account_id).where("players.hero_id" => hero.id)
+  end
 end

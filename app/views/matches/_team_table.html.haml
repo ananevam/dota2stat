@@ -33,7 +33,7 @@
         %td= player.kills
         %td= player.deaths
         %td= player.assists
-        %td= sprintf("%.1f", player.kda)
+        %td= sprintf("%.2f", player.kda)
         %td= how_k(player.gold_earned)
         %td= player.last_hits
         %td= player.denies
@@ -51,7 +51,7 @@
       %td= players.sum(&:kills)
       %td= players.sum(&:deaths)
       %td= players.sum(&:assists)
-      %td= sprintf("%.1f", players_kda(players))
+      %td= sprintf("%.2", players_kda(players))
       %td= how_k(players.sum(&:gold_earned))
       %td= players.sum(&:last_hits)
       %td= players.sum(&:denies)

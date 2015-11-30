@@ -16,6 +16,6 @@ module MatchHelper
   end
 
   def win_rate_format rate
-    sprintf("%.1f", rate) + '%'
+    sprintf("%.2f", rate) + '%'
   end
 end
