@@ -12,21 +12,17 @@
         %th= t('table.gold')
         %th= t('table.items')
   %tbody
-    - @last_matches.each do |match|
+    - @matches.each do |match|
       %tr
         %td
-          =image_tag match.player_by_user(@user).hero.picture_url, :style=>'width:43px;height:24px;'
+          =image_tag match.player_by_user(@user).hero.picture_url
         %td
           =link_to match.player_by_user(@user).hero.localized_name, match
         %td
           - if match.player_by_user(@user).win?
-            <span class="label label-success">
-            =t('table.won_match')
-            </span>
+            %span{class: "label label-success"}=t('table.won_match')
           - else
-            <span class="label label-danger">
-            =t('table.lose_match')
-            </span>
+            %span{class: "label label-danger"}=t('table.lose_match')
         %td
           =match.lobby ? match.lobby.name : ""
         %td
@@ -44,6 +40,6 @@
             = how_k(match.player_by_user(@user).gold_earned)
           %td
             - match.player_by_user(@user).items.each do |item|
-              = image_tag item.picture_url, :style => 'width:33px;height:24px;'
+              = image_tag item.picture_url
 
-=paginate @last_matches if defined?(@last_matches.total_pages)
+=paginate @matches if defined?(@matches.total_pages)

@@ -4,7 +4,7 @@ require 'net/http'
 class ItemTest < ActiveSupport::TestCase
   test "method picture_url" do
     item = Item.order("RAND()").first
-    
+
     uri = URI.parse(item.picture_url)
 
     http = Net::HTTP.new(uri.host, uri.port)

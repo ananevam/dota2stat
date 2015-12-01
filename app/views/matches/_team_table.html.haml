@@ -7,30 +7,56 @@
       %th
         %acronym{"data-toggle"=>"tooltip", :title=>t('table.level_tip')}
           = t('table.level')
-      %th= t('table.k')
-      %th= t('table.d')
-      %th= t('table.a')
-      %th= t('table.kda')
-      %th= t('table.gold')
-      %th= t('table.lh')
-      %th= t('table.dn')
-      %th= t('table.xpm')
-      %th= t('table.gpm')
-      %th= t('table.hd')
-      %th= t('table.hh')
-      %th= t('table.td')
-      %th= t('table.items')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.k_tip')}
+          = t('table.k')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.d_tip')}
+          = t('table.d')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.a_tip')}
+          = t('table.a')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.kda_tip')}
+          = t('table.kda')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.gold_tip')}
+          = t('table.gold')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.lh_tip')}
+          = t('table.lh')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.dn_tip')}
+          = t('table.dn')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.xpm_tip')}
+          = t('table.xpm')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.gpm_tip')}
+          = t('table.gpm')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.hd_tip')}
+          = t('table.hd')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.hh_tip')}
+          = t('table.hh')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.td_tip')}
+          = t('table.td')
+      %th
+        %acronym{"data-toggle"=>"tooltip", :title=>t('table.items_tip')}
+          = t('table.items')
   %tbody
     - players.each do |player|
       %tr
-        %td= image_tag player.hero.picture_url, :style=>'width:43px;height:24px;'
+        %td= image_tag player.hero.picture_url
         %td
           - if player.user
             = link_to(player.user.nickname, player_path(player.user.account_id))
           - else
             = link_to("Dotabuff", "http://www.dotabuff.com/players/#{player.account_id}", :target => "_blank")
         %td
-          = player.user ? image_tag(player.user.image_url, :style => 'width:24px;height:24px;') : ''
+          = player.user ? image_tag(player.user.image_url) : ''
         %td= player.level
         %td= player.kills
         %td= player.deaths
@@ -46,7 +72,7 @@
         %td= how_k(player.tower_damage)
         %td
           - player.items.each do |item|
-            = image_tag item.picture_url, :style => 'width:33px;height:24px;'
+            = image_tag item.picture_url
     %tr
       %td{:colspan => "3"}
       %td= players.sum(&:level)

@@ -5,6 +5,7 @@ class MatchesControllerTest < ActionController::TestCase
     @user = User.first
     get :show, id: @user.all_matches.first.id
     assert_response :success
+    assert_not_includes @response.body, 'translation missing'
   end
 
 end

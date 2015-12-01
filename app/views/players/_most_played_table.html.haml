@@ -9,7 +9,7 @@
     - @most_played_heroes.each do |player|
       %tr
         %td
-          =image_tag player.hero.picture_url, :style=>'width:43px;height:24px;'
+          =image_tag player.hero.picture_url
         %td
           =player.hero.localized_name
         %td

@@ -16,16 +16,16 @@
           %ul.nav.navbar-nav
             %li= link_to "Dota2Stat", root_path
           %ul.nav.navbar-nav.navbar-right
+            %li{:class=>:dropdown}
+              %a{href: "", class: "dropdown-toggle", "data-toggle": "dropdown", role: "button", "aria-haspopup": "true", "aria-expanded": "false"}
+                =t('languages.title')
+                %span{class: :caret}
+              %ul{class: "dropdown-menu"}
+                %li
+                  %a{href: page_by_lang('en')}= t('languages.en')
+                  %a{href: page_by_lang('ru')}= t('languages.ru')
             - if user_signed_in?
               %li= link_to current_user.nickname, player_path(current_user.account_id)
-              %li{:class=>:dropdown}
-                %a{href: "", class: "dropdown-toggle", "data-toggle": "dropdown", role: "button", "aria-haspopup": "true", "aria-expanded": "false"}
-                  Language
-                  %span{class: :caret}
-                %ul{class: "dropdown-menu"}
-                  %li
-                    %a{href: "/en"} en
-                    %a{href: "/ru"} ru
               %li= link_to(t("devise.links.sign_out"), destroy_user_session_path, :method => :delete)
             - else
               %li= link_to t("devise.links.sign_in"), user_omniauth_authorize_path(:steam)

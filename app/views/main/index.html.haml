@@ -1,1 +1,38 @@
-%h1 Main#index
+.panel.panel-default.panel-team-table
+  .panel-heading
+    %h3.panel-title
+      = t('table.latest_matches')
+  %table{:class=>"table table-striped table-condensed"}
+    %thead
+      %tr
+        %th= t('table.match_id')
+        %th= t('table.type')
+        %th= t('table.result')
+        %th= t('table.duration')
+        %th.radiant_color= t('team.radiant')
+        %th.dire_color= t('team.dire')
+    %tbody
+      - @matches.each do |match|
+        %tr
+          %td
+            = link_to match.id, match
+            .help-block= l match.end_time, :format => :short
+          %td
+            =match.lobby ? match.lobby.name : ""
+            .help-block= match.mode.name
+          %td
+            -if match.win == "radiant"
+              %span{class: "label label-success"}= t('team.radiant_win')
+            -else
+              %span{class: "label label-danger"}= t('team.dire_win')
+            .help-block=match.region.name
+          %td
+            =duration_format match.duration
+          %td
+            - match.radiant_players.each do |player|
+              =image_tag player.hero.picture_url
+          %td
+            - match.dire_players.each do |player|
+              =image_tag player.hero.picture_url
+
+  =paginate @matches if defined?(@matches.total_pages)

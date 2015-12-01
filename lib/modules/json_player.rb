@@ -19,6 +19,15 @@ module JsonPlayer
         player.items << item
       end
     end
+
+    player.abilities.delete_all
+    json_player[:ability_upgrades].each do |json_ability|
+      player.ability_players << AbilityPlayer.new(
+          :ability_id => json_ability[:ability],
+          :time => json_ability[:time],
+          :level => json_ability[:level]
+      )
+    end
     player
 
   end

@@ -6,7 +6,7 @@ class PlayersController < ApplicationController
   end
 
   def show
-    @last_matches = matches_by_account_id(@user.account_id).limit(15)
+    @matches = matches_by_account_id(@user.account_id).limit(15)
 
     @most_played_heroes = Player.find_by_sql(
         ["SELECT players.*, COUNT(hero_id) as count_games, heroes.name as hero_name
@@ -22,7 +22,7 @@ class PlayersController < ApplicationController
   end
 
   def matches
-    @last_matches = matches_by_account_id(params[:account_id]).page(params[:page])
+    @matches = matches_by_account_id(params[:account_id]).page(params[:page])
   end
 
   private

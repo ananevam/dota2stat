@@ -11,7 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151127115229) do
+ActiveRecord::Schema.define(version: 20151201114101) do
+
+  create_table "abilities", force: :cascade do |t|
+    t.string   "name",       limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
+  create_table "abilities_players", force: :cascade do |t|
+    t.integer  "ability_id", limit: 4
+    t.integer  "player_id",  limit: 4
+    t.integer  "time",       limit: 4
+    t.integer  "level",      limit: 4
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+  end
+
+  add_index "abilities_players", ["ability_id"], name: "index_abilities_players_on_ability_id", using: :btree
+  add_index "abilities_players", ["level"], name: "index_abilities_players_on_level", using: :btree
+  add_index "abilities_players", ["player_id"], name: "index_abilities_players_on_player_id", using: :btree
+  add_index "abilities_players", ["time"], name: "index_abilities_players_on_time", using: :btree
 
   create_table "heroes", force: :cascade do |t|
     t.string   "name",           limit: 255
@@ -116,17 +136,16 @@ ActiveRecord::Schema.define(version: 20151127115229) do
     t.string   "profile_url",           limit: 255
     t.string   "account_id",            limit: 255
     t.integer  "last_updated_match_id", limit: 4
-    t.boolean  "is_new",                            default: true
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",         limit: 4,   default: 0,    null: false
+    t.integer  "sign_in_count",         limit: 4,   default: 0, null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip",    limit: 255
     t.string   "last_sign_in_ip",       limit: 255
     t.string   "provider",              limit: 255
     t.string   "uid",                   limit: 255
-    t.datetime "created_at",                                       null: false
-    t.datetime "updated_at",                                       null: false
+    t.datetime "created_at",                                    null: false
+    t.datetime "updated_at",                                    null: false
   end
 
   add_index "users", ["account_id"], name: "index_users_on_account_id", using: :btree

@@ -7,6 +7,8 @@ class Player < ActiveRecord::Base
   belongs_to :user, :foreign_key => :account_id, :primary_key => :account_id
 
   has_and_belongs_to_many :items
+  has_and_belongs_to_many :abilities
+  has_many :ability_players
 
   has_many :matches
 

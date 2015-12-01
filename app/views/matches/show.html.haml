@@ -20,9 +20,9 @@
         %td= duration_format(@match.duration)
         %td= @match.end_time.to_s(:long)
 .h-victory-team
-  %h3
-    = @match.win
-    victory
+  %h3{class: "#{@match.win}_color"}
+    = t("team.#{@match.win}_win")
+
 .panel.panel-default.panel-team-table
   .panel-heading
     %h3.panel-title radiant

@@ -68,6 +68,23 @@ namespace :dota2stat do
       end
     end
 
+    desc "Update abilities table"
+    task :abilities => :environment do
+      Ability.destroy_all
+      url = "https://raw.githubusercontent.com/kronusme/dota2-api/master/data/abilities.json"
+      page = open(url)
+      text = page.read
+      json_items = JSON.parse(text, :symbolize_names => true)[:abilities]
+
+      json_items.each do |json_item|
+        item = Ability.find_or_initialize_by(:id => json_item[:id])
+        item.name = json_item[:name]
+        item.save
+
+        print "Update ability #{item.name}\r\n"
+      end
+    end
+
     desc "Update regions table"
     task :regions => :environment do
       Region.destroy_all
