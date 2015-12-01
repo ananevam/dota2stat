@@ -1,7 +1,1540 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  account_id: MyString
-
-two:
-  account_id: MyString
+player_1:
+  id: 1
+  account_id: '65933716'
+  player_slot: 0
+  hero_id: 69
+  kills: 2
+  deaths: 15
+  assists: 5
+  leaver_status: 0
+  gold: 1154
+  last_hits: 117
+  denies: 2
+  gold_per_min: 305
+  xp_per_min: 275
+  gold_spent: 7840
+  hero_damage: 4567
+  tower_damage: 0
+  hero_healing: 137
+  level: 14
+  match_id: 1966344015
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z
+player_2:
+  id: 2
+  account_id: '104775149'
+  player_slot: 1
+  hero_id: 30
+  kills: 4
+  deaths: 18
+  assists: 6
+  leaver_status: 0
+  gold: 2354
+  last_hits: 21
+  denies: 1
+  gold_per_min: 258
+  xp_per_min: 295
+  gold_spent: 5480
+  hero_damage: 5580
+  tower_damage: 0
+  hero_healing: 465
+  level: 14
+  match_id: 1966344015
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z
+player_3:
+  id: 3
+  account_id: '295969519'
+  player_slot: 2
+  hero_id: 39
+  kills: 7
+  deaths: 14
+  assists: 22
+  leaver_status: 0
+  gold: 9
+  last_hits: 72
+  denies: 7
+  gold_per_min: 363
+  xp_per_min: 412
+  gold_spent: 10535
+  hero_damage: 19084
+  tower_damage: 0
+  hero_healing: 0
+  level: 17
+  match_id: 1966344015
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z
+player_4:
+  id: 4
+  account_id: '4294967295'
+  player_slot: 3
+  hero_id: 2
+  kills: 12
+  deaths: 18
+  assists: 10
+  leaver_status: 0
+  gold: 822
+  last_hits: 66
+  denies: 0
+  gold_per_min: 452
+  xp_per_min: 639
+  gold_spent: 12390
+  hero_damage: 10678
+  tower_damage: 0
+  hero_healing: 0
+  level: 21
+  match_id: 1966344015
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z
+player_5:
+  id: 5
+  account_id: '4294967295'
+  player_slot: 4
+  hero_id: 62
+  kills: 9
+  deaths: 10
+  assists: 7
+  leaver_status: 0
+  gold: 1005
+  last_hits: 15
+  denies: 2
+  gold_per_min: 383
+  xp_per_min: 417
+  gold_spent: 13790
+  hero_damage: 10164
+  tower_damage: 0
+  hero_healing: 0
+  level: 17
+  match_id: 1966344015
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z
+player_6:
+  id: 6
+  account_id: '4294967295'
+  player_slot: 128
+  hero_id: 11
+  kills: 10
+  deaths: 8
+  assists: 19
+  leaver_status: 0
+  gold: 1538
+  last_hits: 266
+  denies: 6
+  gold_per_min: 615
+  xp_per_min: 670
+  gold_spent: 21830
+  hero_damage: 15698
+  tower_damage: 2813
+  hero_healing: 0
+  level: 22
+  match_id: 1966344015
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z
+player_7:
+  id: 7
+  account_id: '4294967295'
+  player_slot: 129
+  hero_id: 21
+  kills: 8
+  deaths: 6
+  assists: 10
+  leaver_status: 0
+  gold: 23
+  last_hits: 135
+  denies: 6
+  gold_per_min: 506
+  xp_per_min: 605
+  gold_spent: 18255
+  hero_damage: 9702
+  tower_damage: 3084
+  hero_healing: 0
+  level: 20
+  match_id: 1966344015
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z
+player_8:
+  id: 8
+  account_id: '4294967295'
+  player_slot: 130
+  hero_id: 74
+  kills: 16
+  deaths: 8
+  assists: 27
+  leaver_status: 0
+  gold: 4707
+  last_hits: 37
+  denies: 1
+  gold_per_min: 484
+  xp_per_min: 579
+  gold_spent: 13215
+  hero_damage: 21169
+  tower_damage: 2901
+  hero_healing: 0
+  level: 20
+  match_id: 1966344015
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z
+player_9:
+  id: 9
+  account_id: '114601838'
+  player_slot: 131
+  hero_id: 9
+  kills: 15
+  deaths: 4
+  assists: 18
+  leaver_status: 0
+  gold: 6037
+  last_hits: 51
+  denies: 7
+  gold_per_min: 503
+  xp_per_min: 543
+  gold_spent: 12500
+  hero_damage: 15496
+  tower_damage: 1190
+  hero_healing: 0
+  level: 19
+  match_id: 1966344015
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z
+player_10:
+  id: 10
+  account_id: '110740990'
+  player_slot: 132
+  hero_id: 45
+  kills: 21
+  deaths: 9
+  assists: 22
+  leaver_status: 0
+  gold: 2687
+  last_hits: 101
+  denies: 5
+  gold_per_min: 556
+  xp_per_min: 594
+  gold_spent: 17370
+  hero_damage: 24307
+  tower_damage: 2314
+  hero_healing: 1767
+  level: 20
+  match_id: 1966344015
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z
+player_11:
+  id: 11
+  account_id: '113302046'
+  player_slot: 0
+  hero_id: 62
+  kills: 5
+  deaths: 5
+  assists: 3
+  leaver_status: 0
+  gold: 845
+  last_hits: 55
+  denies: 0
+  gold_per_min: 422
+  xp_per_min: 389
+  gold_spent: 11265
+  hero_damage: 6195
+  tower_damage: 0
+  hero_healing: 0
+  level: 14
+  match_id: 1966259846
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+player_12:
+  id: 12
+  account_id: '65933716'
+  player_slot: 1
+  hero_id: 59
+  kills: 0
+  deaths: 6
+  assists: 0
+  leaver_status: 4
+  gold: 1138
+  last_hits: 59
+  denies: 3
+  gold_per_min: 206
+  xp_per_min: 283
+  gold_spent: 3780
+  hero_damage: 2809
+  tower_damage: 0
+  hero_healing: 0
+  level: 11
+  match_id: 1966259846
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+player_13:
+  id: 13
+  account_id: '104775149'
+  player_slot: 2
+  hero_id: 30
+  kills: 0
+  deaths: 7
+  assists: 4
+  leaver_status: 0
+  gold: 1066
+  last_hits: 4
+  denies: 7
+  gold_per_min: 156
+  xp_per_min: 142
+  gold_spent: 3380
+  hero_damage: 3289
+  tower_damage: 0
+  hero_healing: 858
+  level: 8
+  match_id: 1966259846
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+player_14:
+  id: 14
+  account_id: '128507083'
+  player_slot: 3
+  hero_id: 14
+  kills: 10
+  deaths: 11
+  assists: 4
+  leaver_status: 0
+  gold: 2300
+  last_hits: 40
+  denies: 1
+  gold_per_min: 391
+  xp_per_min: 364
+  gold_spent: 7715
+  hero_damage: 12937
+  tower_damage: 0
+  hero_healing: 360
+  level: 14
+  match_id: 1966259846
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+player_15:
+  id: 15
+  account_id: '124871516'
+  player_slot: 4
+  hero_id: 44
+  kills: 3
+  deaths: 8
+  assists: 8
+  leaver_status: 0
+  gold: 1525
+  last_hits: 72
+  denies: 7
+  gold_per_min: 412
+  xp_per_min: 396
+  gold_spent: 9025
+  hero_damage: 5214
+  tower_damage: 0
+  hero_healing: 0
+  level: 14
+  match_id: 1966259846
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+player_16:
+  id: 16
+  account_id: '4294967295'
+  player_slot: 128
+  hero_id: 93
+  kills: 8
+  deaths: 4
+  assists: 5
+  leaver_status: 0
+  gold: 3299
+  last_hits: 110
+  denies: 16
+  gold_per_min: 534
+  xp_per_min: 433
+  gold_spent: 12460
+  hero_damage: 10142
+  tower_damage: 2298
+  hero_healing: 0
+  level: 15
+  match_id: 1966259846
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+player_17:
+  id: 17
+  account_id: '4294967295'
+  player_slot: 129
+  hero_id: 39
+  kills: 11
+  deaths: 4
+  assists: 12
+  leaver_status: 0
+  gold: 454
+  last_hits: 81
+  denies: 2
+  gold_per_min: 562
+  xp_per_min: 524
+  gold_spent: 15585
+  hero_damage: 13319
+  tower_damage: 2206
+  hero_healing: 0
+  level: 16
+  match_id: 1966259846
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+player_18:
+  id: 18
+  account_id: '4294967295'
+  player_slot: 130
+  hero_id: 28
+  kills: 6
+  deaths: 5
+  assists: 12
+  leaver_status: 0
+  gold: 2404
+  last_hits: 49
+  denies: 8
+  gold_per_min: 476
+  xp_per_min: 467
+  gold_spent: 10800
+  hero_damage: 6701
+  tower_damage: 1506
+  hero_healing: 0
+  level: 15
+  match_id: 1966259846
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+player_19:
+  id: 19
+  account_id: '4294967295'
+  player_slot: 131
+  hero_id: 73
+  kills: 5
+  deaths: 3
+  assists: 9
+  leaver_status: 0
+  gold: 4151
+  last_hits: 198
+  denies: 1
+  gold_per_min: 820
+  xp_per_min: 515
+  gold_spent: 19265
+  hero_damage: 7445
+  tower_damage: 4492
+  hero_healing: 0
+  level: 16
+  match_id: 1966259846
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+player_20:
+  id: 20
+  account_id: '127176987'
+  player_slot: 132
+  hero_id: 86
+  kills: 4
+  deaths: 4
+  assists: 10
+  leaver_status: 0
+  gold: 579
+  last_hits: 26
+  denies: 1
+  gold_per_min: 372
+  xp_per_min: 286
+  gold_spent: 10615
+  hero_damage: 3366
+  tower_damage: 782
+  hero_healing: 0
+  level: 12
+  match_id: 1966259846
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+player_21:
+  id: 21
+  account_id: '4294967295'
+  player_slot: 0
+  hero_id: 40
+  kills: 2
+  deaths: 15
+  assists: 13
+  leaver_status: 0
+  gold: 297
+  last_hits: 75
+  denies: 3
+  gold_per_min: 260
+  xp_per_min: 228
+  gold_spent: 7835
+  hero_damage: 17557
+  tower_damage: 0
+  hero_healing: 0
+  level: 13
+  match_id: 1966116924
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+player_22:
+  id: 22
+  account_id: '57780115'
+  player_slot: 1
+  hero_id: 28
+  kills: 5
+  deaths: 12
+  assists: 7
+  leaver_status: 0
+  gold: 541
+  last_hits: 58
+  denies: 1
+  gold_per_min: 319
+  xp_per_min: 306
+  gold_spent: 11210
+  hero_damage: 5655
+  tower_damage: 132
+  hero_healing: 0
+  level: 15
+  match_id: 1966116924
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+player_23:
+  id: 23
+  account_id: '246075757'
+  player_slot: 2
+  hero_id: 14
+  kills: 15
+  deaths: 14
+  assists: 7
+  leaver_status: 0
+  gold: 456
+  last_hits: 45
+  denies: 1
+  gold_per_min: 410
+  xp_per_min: 682
+  gold_spent: 12975
+  hero_damage: 18774
+  tower_damage: 57
+  hero_healing: 0
+  level: 22
+  match_id: 1966116924
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+player_24:
+  id: 24
+  account_id: '206708005'
+  player_slot: 3
+  hero_id: 33
+  kills: 0
+  deaths: 12
+  assists: 7
+  leaver_status: 0
+  gold: 26
+  last_hits: 126
+  denies: 1
+  gold_per_min: 262
+  xp_per_min: 265
+  gold_spent: 8325
+  hero_damage: 2681
+  tower_damage: 254
+  hero_healing: 220
+  level: 14
+  match_id: 1966116924
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+player_25:
+  id: 25
+  account_id: '279310358'
+  player_slot: 4
+  hero_id: 4
+  kills: 5
+  deaths: 14
+  assists: 10
+  leaver_status: 0
+  gold: 144
+  last_hits: 173
+  denies: 17
+  gold_per_min: 414
+  xp_per_min: 523
+  gold_spent: 12575
+  hero_damage: 10789
+  tower_damage: 578
+  hero_healing: 277
+  level: 19
+  match_id: 1966116924
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+player_26:
+  id: 26
+  account_id: '4294967295'
+  player_slot: 128
+  hero_id: 100
+  kills: 12
+  deaths: 6
+  assists: 16
+  leaver_status: 0
+  gold: 524
+  last_hits: 89
+  denies: 4
+  gold_per_min: 468
+  xp_per_min: 595
+  gold_spent: 18125
+  hero_damage: 18128
+  tower_damage: 0
+  hero_healing: 0
+  level: 21
+  match_id: 1966116924
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+player_27:
+  id: 27
+  account_id: '162198070'
+  player_slot: 129
+  hero_id: 72
+  kills: 16
+  deaths: 4
+  assists: 25
+  leaver_status: 0
+  gold: 1573
+  last_hits: 227
+  denies: 9
+  gold_per_min: 650
+  xp_per_min: 823
+  gold_spent: 24200
+  hero_damage: 25246
+  tower_damage: 6609
+  hero_healing: 0
+  level: 25
+  match_id: 1966116924
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+player_28:
+  id: 28
+  account_id: '279207614'
+  player_slot: 130
+  hero_id: 106
+  kills: 28
+  deaths: 8
+  assists: 24
+  leaver_status: 0
+  gold: 2617
+  last_hits: 153
+  denies: 4
+  gold_per_min: 702
+  xp_per_min: 821
+  gold_spent: 24405
+  hero_damage: 25822
+  tower_damage: 874
+  hero_healing: 0
+  level: 25
+  match_id: 1966116924
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+player_29:
+  id: 29
+  account_id: '65933716'
+  player_slot: 131
+  hero_id: 69
+  kills: 3
+  deaths: 5
+  assists: 12
+  leaver_status: 0
+  gold: 2096
+  last_hits: 154
+  denies: 1
+  gold_per_min: 485
+  xp_per_min: 538
+  gold_spent: 16465
+  hero_damage: 5522
+  tower_damage: 750
+  hero_healing: 1128
+  level: 20
+  match_id: 1966116924
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+player_30:
+  id: 30
+  account_id: '104775149'
+  player_slot: 132
+  hero_id: 30
+  kills: 6
+  deaths: 9
+  assists: 25
+  leaver_status: 0
+  gold: 4758
+  last_hits: 16
+  denies: 2
+  gold_per_min: 350
+  xp_per_min: 458
+  gold_spent: 8900
+  hero_damage: 9042
+  tower_damage: 647
+  hero_healing: 3662
+  level: 18
+  match_id: 1966116924
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+player_31:
+  id: 31
+  account_id: '65933716'
+  player_slot: 0
+  hero_id: 69
+  kills: 9
+  deaths: 7
+  assists: 12
+  leaver_status: 0
+  gold: 4658
+  last_hits: 101
+  denies: 0
+  gold_per_min: 441
+  xp_per_min: 384
+  gold_spent: 13390
+  hero_damage: 7573
+  tower_damage: 280
+  hero_healing: 1221
+  level: 17
+  match_id: 1964045398
+  created_at: 2015-12-01 07:58:11.000000000 Z
+  updated_at: 2015-12-01 07:58:11.000000000 Z
+player_32:
+  id: 32
+  account_id: '104775149'
+  player_slot: 1
+  hero_id: 30
+  kills: 6
+  deaths: 11
+  assists: 12
+  leaver_status: 0
+  gold: 1547
+  last_hits: 13
+  denies: 4
+  gold_per_min: 282
+  xp_per_min: 299
+  gold_spent: 9880
+  hero_damage: 5717
+  tower_damage: 498
+  hero_healing: 1461
+  level: 15
+  match_id: 1964045398
+  created_at: 2015-12-01 07:58:11.000000000 Z
+  updated_at: 2015-12-01 07:58:11.000000000 Z
+player_33:
+  id: 33
+  account_id: '148285208'
+  player_slot: 2
+  hero_id: 73
+  kills: 9
+  deaths: 6
+  assists: 12
+  leaver_status: 0
+  gold: 1817
+  last_hits: 220
+  denies: 0
+  gold_per_min: 749
+  xp_per_min: 785
+  gold_spent: 29125
+  hero_damage: 13779
+  tower_damage: 4355
+  hero_healing: 0
+  level: 25
+  match_id: 1964045398
+  created_at: 2015-12-01 07:58:11.000000000 Z
+  updated_at: 2015-12-01 07:58:11.000000000 Z
+player_34:
+  id: 34
+  account_id: '69166488'
+  player_slot: 3
+  hero_id: 28
+  kills: 2
+  deaths: 6
+  assists: 9
+  leaver_status: 0
+  gold: 2107
+  last_hits: 96
+  denies: 8
+  gold_per_min: 334
+  xp_per_min: 380
+  gold_spent: 11275
+  hero_damage: 7284
+  tower_damage: 175
+  hero_healing: 0
+  level: 17
+  match_id: 1964045398
+  created_at: 2015-12-01 07:58:11.000000000 Z
+  updated_at: 2015-12-01 07:58:11.000000000 Z
+player_35:
+  id: 35
+  account_id: '4294967295'
+  player_slot: 4
+  hero_id: 21
+  kills: 6
+  deaths: 11
+  assists: 12
+  leaver_status: 0
+  gold: 1996
+  last_hits: 154
+  denies: 4
+  gold_per_min: 422
+  xp_per_min: 434
+  gold_spent: 13965
+  hero_damage: 15312
+  tower_damage: 3374
+  hero_healing: 0
+  level: 18
+  match_id: 1964045398
+  created_at: 2015-12-01 07:58:11.000000000 Z
+  updated_at: 2015-12-01 07:58:11.000000000 Z
+player_36:
+  id: 36
+  account_id: '130027532'
+  player_slot: 128
+  hero_id: 34
+  kills: 5
+  deaths: 5
+  assists: 11
+  leaver_status: 0
+  gold: 666
+  last_hits: 180
+  denies: 3
+  gold_per_min: 380
+  xp_per_min: 536
+  gold_spent: 13150
+  hero_damage: 13582
+  tower_damage: 91
+  hero_healing: 0
+  level: 20
+  match_id: 1964045398
+  created_at: 2015-12-01 07:58:11.000000000 Z
+  updated_at: 2015-12-01 07:58:11.000000000 Z
+player_37:
+  id: 37
+  account_id: '169699380'
+  player_slot: 129
+  hero_id: 100
+  kills: 10
+  deaths: 9
+  assists: 11
+  leaver_status: 0
+  gold: 589
+  last_hits: 33
+  denies: 0
+  gold_per_min: 286
+  xp_per_min: 335
+  gold_spent: 8845
+  hero_damage: 12269
+  tower_damage: 0
+  hero_healing: 0
+  level: 16
+  match_id: 1964045398
+  created_at: 2015-12-01 07:58:11.000000000 Z
+  updated_at: 2015-12-01 07:58:11.000000000 Z
+player_38:
+  id: 38
+  account_id: '4294967295'
+  player_slot: 130
+  hero_id: 97
+  kills: 7
+  deaths: 5
+  assists: 15
+  leaver_status: 0
+  gold: 3634
+  last_hits: 74
+  denies: 1
+  gold_per_min: 330
+  xp_per_min: 426
+  gold_spent: 8750
+  hero_damage: 9394
+  tower_damage: 87
+  hero_healing: 0
+  level: 18
+  match_id: 1964045398
+  created_at: 2015-12-01 07:58:11.000000000 Z
+  updated_at: 2015-12-01 07:58:11.000000000 Z
+player_39:
+  id: 39
+  account_id: '67277931'
+  player_slot: 131
+  hero_id: 104
+  kills: 13
+  deaths: 5
+  assists: 8
+  leaver_status: 0
+  gold: 1138
+  last_hits: 212
+  denies: 3
+  gold_per_min: 441
+  xp_per_min: 445
+  gold_spent: 16520
+  hero_damage: 11026
+  tower_damage: 315
+  hero_healing: 0
+  level: 18
+  match_id: 1964045398
+  created_at: 2015-12-01 07:58:12.000000000 Z
+  updated_at: 2015-12-01 07:58:12.000000000 Z
+player_40:
+  id: 40
+  account_id: '19475909'
+  player_slot: 132
+  hero_id: 26
+  kills: 4
+  deaths: 9
+  assists: 15
+  leaver_status: 0
+  gold: 56
+  last_hits: 54
+  denies: 1
+  gold_per_min: 238
+  xp_per_min: 261
+  gold_spent: 8270
+  hero_damage: 9315
+  tower_damage: 344
+  hero_healing: 0
+  level: 14
+  match_id: 1964045398
+  created_at: 2015-12-01 07:58:12.000000000 Z
+  updated_at: 2015-12-01 07:58:12.000000000 Z
+player_41:
+  id: 41
+  account_id: '4294967295'
+  player_slot: 0
+  hero_id: 46
+  kills: 13
+  deaths: 10
+  assists: 10
+  leaver_status: 0
+  gold: 143
+  last_hits: 318
+  denies: 29
+  gold_per_min: 510
+  xp_per_min: 634
+  gold_spent: 23640
+  hero_damage: 18573
+  tower_damage: 963
+  hero_healing: 0
+  level: 25
+  match_id: 1963934063
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+player_42:
+  id: 42
+  account_id: '4294967295'
+  player_slot: 1
+  hero_id: 55
+  kills: 8
+  deaths: 15
+  assists: 20
+  leaver_status: 0
+  gold: 650
+  last_hits: 281
+  denies: 0
+  gold_per_min: 422
+  xp_per_min: 549
+  gold_spent: 14335
+  hero_damage: 20527
+  tower_damage: 0
+  hero_healing: 1486
+  level: 23
+  match_id: 1963934063
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+player_43:
+  id: 43
+  account_id: '4294967295'
+  player_slot: 2
+  hero_id: 54
+  kills: 8
+  deaths: 10
+  assists: 10
+  leaver_status: 0
+  gold: 144
+  last_hits: 323
+  denies: 1
+  gold_per_min: 467
+  xp_per_min: 505
+  gold_spent: 21545
+  hero_damage: 13380
+  tower_damage: 212
+  hero_healing: 497
+  level: 22
+  match_id: 1963934063
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+player_44:
+  id: 44
+  account_id: '4294967295'
+  player_slot: 3
+  hero_id: 32
+  kills: 6
+  deaths: 12
+  assists: 10
+  leaver_status: 0
+  gold: 1764
+  last_hits: 137
+  denies: 8
+  gold_per_min: 325
+  xp_per_min: 433
+  gold_spent: 12415
+  hero_damage: 7518
+  tower_damage: 106
+  hero_healing: 199
+  level: 20
+  match_id: 1963934063
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+player_45:
+  id: 45
+  account_id: '4294967295'
+  player_slot: 4
+  hero_id: 68
+  kills: 12
+  deaths: 8
+  assists: 12
+  leaver_status: 0
+  gold: 1385
+  last_hits: 56
+  denies: 12
+  gold_per_min: 366
+  xp_per_min: 465
+  gold_spent: 17465
+  hero_damage: 15773
+  tower_damage: 16
+  hero_healing: 155
+  level: 21
+  match_id: 1963934063
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+player_46:
+  id: 46
+  account_id: '184719005'
+  player_slot: 128
+  hero_id: 28
+  kills: 6
+  deaths: 8
+  assists: 27
+  leaver_status: 0
+  gold: 6376
+  last_hits: 118
+  denies: 4
+  gold_per_min: 474
+  xp_per_min: 622
+  gold_spent: 16720
+  hero_damage: 11730
+  tower_damage: 1823
+  hero_healing: 0
+  level: 25
+  match_id: 1963934063
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+player_47:
+  id: 47
+  account_id: '65933716'
+  player_slot: 129
+  hero_id: 69
+  kills: 20
+  deaths: 7
+  assists: 24
+  leaver_status: 0
+  gold: 3977
+  last_hits: 166
+  denies: 2
+  gold_per_min: 564
+  xp_per_min: 620
+  gold_spent: 24390
+  hero_damage: 22261
+  tower_damage: 2555
+  hero_healing: 1776
+  level: 25
+  match_id: 1963934063
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+player_48:
+  id: 48
+  account_id: '104775149'
+  player_slot: 130
+  hero_id: 30
+  kills: 3
+  deaths: 15
+  assists: 23
+  leaver_status: 0
+  gold: 2144
+  last_hits: 42
+  denies: 6
+  gold_per_min: 300
+  xp_per_min: 384
+  gold_spent: 12045
+  hero_damage: 8340
+  tower_damage: 739
+  hero_healing: 4104
+  level: 19
+  match_id: 1963934063
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+player_49:
+  id: 49
+  account_id: '4294967295'
+  player_slot: 131
+  hero_id: 44
+  kills: 18
+  deaths: 7
+  assists: 18
+  leaver_status: 0
+  gold: 8428
+  last_hits: 321
+  denies: 5
+  gold_per_min: 613
+  xp_per_min: 619
+  gold_spent: 19500
+  hero_damage: 24350
+  tower_damage: 4343
+  hero_healing: 0
+  level: 25
+  match_id: 1963934063
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+player_50:
+  id: 50
+  account_id: '4294967295'
+  player_slot: 132
+  hero_id: 97
+  kills: 6
+  deaths: 10
+  assists: 18
+  leaver_status: 0
+  gold: 2040
+  last_hits: 127
+  denies: 1
+  gold_per_min: 430
+  xp_per_min: 511
+  gold_spent: 19750
+  hero_damage: 8018
+  tower_damage: 1559
+  hero_healing: 0
+  level: 22
+  match_id: 1963934063
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+player_51:
+  id: 51
+  account_id: '143997251'
+  player_slot: 0
+  hero_id: 64
+  kills: 7
+  deaths: 3
+  assists: 26
+  leaver_status: 0
+  gold: 1002
+  last_hits: 10
+  denies: 3
+  gold_per_min: 397
+  xp_per_min: 404
+  gold_spent: 11775
+  hero_damage: 7570
+  tower_damage: 2182
+  hero_healing: 2569
+  level: 15
+  match_id: 1963842721
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+player_52:
+  id: 52
+  account_id: '4294967295'
+  player_slot: 1
+  hero_id: 39
+  kills: 10
+  deaths: 4
+  assists: 24
+  leaver_status: 0
+  gold: 2316
+  last_hits: 62
+  denies: 1
+  gold_per_min: 525
+  xp_per_min: 522
+  gold_spent: 14260
+  hero_damage: 15341
+  tower_damage: 3022
+  hero_healing: 0
+  level: 17
+  match_id: 1963842721
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+player_53:
+  id: 53
+  account_id: '4294967295'
+  player_slot: 2
+  hero_id: 18
+  kills: 16
+  deaths: 3
+  assists: 18
+  leaver_status: 0
+  gold: 979
+  last_hits: 140
+  denies: 19
+  gold_per_min: 615
+  xp_per_min: 436
+  gold_spent: 18745
+  hero_damage: 18347
+  tower_damage: 3072
+  hero_healing: 0
+  level: 16
+  match_id: 1963842721
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+player_54:
+  id: 54
+  account_id: '65933716'
+  player_slot: 3
+  hero_id: 54
+  kills: 7
+  deaths: 2
+  assists: 20
+  leaver_status: 0
+  gold: 1061
+  last_hits: 113
+  denies: 8
+  gold_per_min: 505
+  xp_per_min: 458
+  gold_spent: 14985
+  hero_damage: 10252
+  tower_damage: 2496
+  hero_healing: 1438
+  level: 16
+  match_id: 1963842721
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+player_55:
+  id: 55
+  account_id: '104775149'
+  player_slot: 4
+  hero_id: 30
+  kills: 5
+  deaths: 4
+  assists: 22
+  leaver_status: 0
+  gold: 2463
+  last_hits: 17
+  denies: 6
+  gold_per_min: 364
+  xp_per_min: 365
+  gold_spent: 7855
+  hero_damage: 10472
+  tower_damage: 912
+  hero_healing: 5184
+  level: 14
+  match_id: 1963842721
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+player_56:
+  id: 56
+  account_id: '171308735'
+  player_slot: 128
+  hero_id: 67
+  kills: 4
+  deaths: 5
+  assists: 7
+  leaver_status: 0
+  gold: 642
+  last_hits: 119
+  denies: 2
+  gold_per_min: 381
+  xp_per_min: 373
+  gold_spent: 11035
+  hero_damage: 5543
+  tower_damage: 54
+  hero_healing: 0
+  level: 14
+  match_id: 1963842721
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+player_57:
+  id: 57
+  account_id: '137958008'
+  player_slot: 129
+  hero_id: 11
+  kills: 6
+  deaths: 10
+  assists: 5
+  leaver_status: 0
+  gold: 618
+  last_hits: 137
+  denies: 3
+  gold_per_min: 425
+  xp_per_min: 425
+  gold_spent: 11160
+  hero_damage: 11883
+  tower_damage: 726
+  hero_healing: 257
+  level: 15
+  match_id: 1963842721
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+player_58:
+  id: 58
+  account_id: '151680226'
+  player_slot: 130
+  hero_id: 3
+  kills: 1
+  deaths: 8
+  assists: 6
+  leaver_status: 0
+  gold: 249
+  last_hits: 10
+  denies: 5
+  gold_per_min: 238
+  xp_per_min: 251
+  gold_spent: 6440
+  hero_damage: 3653
+  tower_damage: 0
+  hero_healing: 0
+  level: 11
+  match_id: 1963842721
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+player_59:
+  id: 59
+  account_id: '125488107'
+  player_slot: 131
+  hero_id: 100
+  kills: 3
+  deaths: 11
+  assists: 9
+  leaver_status: 0
+  gold: 1039
+  last_hits: 17
+  denies: 0
+  gold_per_min: 251
+  xp_per_min: 268
+  gold_spent: 5300
+  hero_damage: 7679
+  tower_damage: 0
+  hero_healing: 0
+  level: 12
+  match_id: 1963842721
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+player_60:
+  id: 60
+  account_id: '102920491'
+  player_slot: 132
+  hero_id: 82
+  kills: 2
+  deaths: 11
+  assists: 5
+  leaver_status: 0
+  gold: 195
+  last_hits: 92
+  denies: 2
+  gold_per_min: 235
+  xp_per_min: 244
+  gold_spent: 5500
+  hero_damage: 4655
+  tower_damage: 0
+  hero_healing: 0
+  level: 11
+  match_id: 1963842721
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+player_61:
+  id: 61
+  account_id: '4294967295'
+  player_slot: 0
+  hero_id: 88
+  kills: 10
+  deaths: 8
+  assists: 9
+  leaver_status: 0
+  gold: 1248
+  last_hits: 70
+  denies: 10
+  gold_per_min: 417
+  xp_per_min: 569
+  gold_spent: 11330
+  hero_damage: 14770
+  tower_damage: 126
+  hero_healing: 0
+  level: 19
+  match_id: 1963739367
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z
+player_62:
+  id: 62
+  account_id: '4294967295'
+  player_slot: 1
+  hero_id: 41
+  kills: 15
+  deaths: 1
+  assists: 14
+  leaver_status: 0
+  gold: 3560
+  last_hits: 140
+  denies: 4
+  gold_per_min: 621
+  xp_per_min: 619
+  gold_spent: 19160
+  hero_damage: 17348
+  tower_damage: 9790
+  hero_healing: 0
+  level: 20
+  match_id: 1963739367
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z
+player_63:
+  id: 63
+  account_id: '65933716'
+  player_slot: 2
+  hero_id: 69
+  kills: 8
+  deaths: 5
+  assists: 14
+  leaver_status: 0
+  gold: 2712
+  last_hits: 132
+  denies: 0
+  gold_per_min: 537
+  xp_per_min: 564
+  gold_spent: 16465
+  hero_damage: 7393
+  tower_damage: 1366
+  hero_healing: 1802
+  level: 19
+  match_id: 1963739367
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z
+player_64:
+  id: 64
+  account_id: '104775149'
+  player_slot: 3
+  hero_id: 30
+  kills: 7
+  deaths: 6
+  assists: 16
+  leaver_status: 0
+  gold: 3283
+  last_hits: 18
+  denies: 6
+  gold_per_min: 378
+  xp_per_min: 403
+  gold_spent: 9885
+  hero_damage: 8923
+  tower_damage: 962
+  hero_healing: 4440
+  level: 16
+  match_id: 1963739367
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z
+player_65:
+  id: 65
+  account_id: '4294967295'
+  player_slot: 4
+  hero_id: 7
+  kills: 8
+  deaths: 1
+  assists: 16
+  leaver_status: 0
+  gold: 3662
+  last_hits: 106
+  denies: 4
+  gold_per_min: 524
+  xp_per_min: 637
+  gold_spent: 15425
+  hero_damage: 13430
+  tower_damage: 1860
+  hero_healing: 122
+  level: 20
+  match_id: 1963739367
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z
+player_66:
+  id: 66
+  account_id: '4294967295'
+  player_slot: 128
+  hero_id: 104
+  kills: 6
+  deaths: 8
+  assists: 6
+  leaver_status: 0
+  gold: 63
+  last_hits: 126
+  denies: 5
+  gold_per_min: 419
+  xp_per_min: 489
+  gold_spent: 15015
+  hero_damage: 10297
+  tower_damage: 0
+  hero_healing: 0
+  level: 18
+  match_id: 1963739367
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z
+player_67:
+  id: 67
+  account_id: '21358151'
+  player_slot: 129
+  hero_id: 46
+  kills: 5
+  deaths: 10
+  assists: 5
+  leaver_status: 0
+  gold: 2235
+  last_hits: 131
+  denies: 9
+  gold_per_min: 391
+  xp_per_min: 531
+  gold_spent: 8615
+  hero_damage: 7219
+  tower_damage: 68
+  hero_healing: 0
+  level: 18
+  match_id: 1963739367
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z
+player_68:
+  id: 68
+  account_id: '276136126'
+  player_slot: 130
+  hero_id: 101
+  kills: 3
+  deaths: 12
+  assists: 6
+  leaver_status: 0
+  gold: 67
+  last_hits: 33
+  denies: 15
+  gold_per_min: 285
+  xp_per_min: 300
+  gold_spent: 9020
+  hero_damage: 10055
+  tower_damage: 33
+  hero_healing: 0
+  level: 14
+  match_id: 1963739367
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z
+player_69:
+  id: 69
+  account_id: '246894056'
+  player_slot: 131
+  hero_id: 15
+  kills: 2
+  deaths: 8
+  assists: 6
+  leaver_status: 0
+  gold: 1362
+  last_hits: 121
+  denies: 25
+  gold_per_min: 332
+  xp_per_min: 361
+  gold_spent: 9760
+  hero_damage: 9505
+  tower_damage: 413
+  hero_healing: 112
+  level: 15
+  match_id: 1963739367
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z
+player_70:
+  id: 70
+  account_id: '4294967295'
+  player_slot: 132
+  hero_id: 38
+  kills: 3
+  deaths: 10
+  assists: 7
+  leaver_status: 0
+  gold: 132
+  last_hits: 57
+  denies: 7
+  gold_per_min: 267
+  xp_per_min: 355
+  gold_spent: 8845
+  hero_damage: 7688
+  tower_damage: 8
+  hero_healing: 401
+  level: 15
+  match_id: 1963739367
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z

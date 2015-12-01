@@ -1,7 +1,140 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  duration: 
-
-two:
-  duration: 
+match_1963739367:
+  id: 1963739367
+  win: 0
+  skill: 
+  duration: 2119
+  start_time: 2015-11-27 17:10:50.000000000 Z
+  match_seq_num: 1733786268
+  tower_status_radiant: 2038
+  tower_status_dire: 0
+  cluster: 181
+  first_blood_time: 392
+  lobby_type: 7
+  human_players: 10
+  leagueid: 0
+  positive_votes: 0
+  negative_votes: 0
+  game_mode: 22
+  engine: 1
+  created_at: 2015-12-01 07:58:17.000000000 Z
+  updated_at: 2015-12-01 07:58:17.000000000 Z
+match_1963842721:
+  id: 1963842721
+  win: 0
+  skill: 
+  duration: 1869
+  start_time: 2015-11-27 18:02:57.000000000 Z
+  match_seq_num: 1733868685
+  tower_status_radiant: 2038
+  tower_status_dire: 0
+  cluster: 133
+  first_blood_time: 71
+  lobby_type: 7
+  human_players: 10
+  leagueid: 0
+  positive_votes: 0
+  negative_votes: 0
+  game_mode: 22
+  engine: 1
+  created_at: 2015-12-01 07:58:15.000000000 Z
+  updated_at: 2015-12-01 07:58:15.000000000 Z
+match_1963934063:
+  id: 1963934063
+  win: 1
+  skill: 
+  duration: 3142
+  start_time: 2015-11-27 18:53:50.000000000 Z
+  match_seq_num: 1733971429
+  tower_status_radiant: 0
+  tower_status_dire: 1830
+  cluster: 185
+  first_blood_time: 136
+  lobby_type: 7
+  human_players: 10
+  leagueid: 0
+  positive_votes: 0
+  negative_votes: 0
+  game_mode: 22
+  engine: 1
+  created_at: 2015-12-01 07:58:13.000000000 Z
+  updated_at: 2015-12-01 07:58:13.000000000 Z
+match_1964045398:
+  id: 1964045398
+  win: 0
+  skill: 
+  duration: 2513
+  start_time: 2015-11-27 20:02:10.000000000 Z
+  match_seq_num: 1734051283
+  tower_status_radiant: 1846
+  tower_status_dire: 384
+  cluster: 138
+  first_blood_time: 5
+  lobby_type: 7
+  human_players: 10
+  leagueid: 0
+  positive_votes: 0
+  negative_votes: 0
+  game_mode: 22
+  engine: 1
+  created_at: 2015-12-01 07:58:11.000000000 Z
+  updated_at: 2015-12-01 07:58:11.000000000 Z
+match_1966116924:
+  id: 1966116924
+  win: 1
+  skill: 
+  duration: 2365
+  start_time: 2015-11-28 15:39:56.000000000 Z
+  match_seq_num: 1735786416
+  tower_status_radiant: 4
+  tower_status_dire: 1974
+  cluster: 132
+  first_blood_time: 8
+  lobby_type: 7
+  human_players: 10
+  leagueid: 0
+  positive_votes: 0
+  negative_votes: 0
+  game_mode: 22
+  engine: 1
+  created_at: 2015-12-01 07:58:10.000000000 Z
+  updated_at: 2015-12-01 07:58:10.000000000 Z
+match_1966259846:
+  id: 1966259846
+  win: 1
+  skill: 
+  duration: 1731
+  start_time: 2015-11-28 16:37:10.000000000 Z
+  match_seq_num: 1735881106
+  tower_status_radiant: 0
+  tower_status_dire: 2047
+  cluster: 182
+  first_blood_time: 146
+  lobby_type: 7
+  human_players: 10
+  leagueid: 0
+  positive_votes: 0
+  negative_votes: 0
+  game_mode: 22
+  engine: 1
+  created_at: 2015-12-01 07:58:08.000000000 Z
+  updated_at: 2015-12-01 07:58:08.000000000 Z
+match_1966344015:
+  id: 1966344015
+  win: 1
+  skill: 
+  duration: 2276
+  start_time: 2015-11-28 17:13:31.000000000 Z
+  match_seq_num: 1735967697
+  tower_status_radiant: 0
+  tower_status_dire: 2047
+  cluster: 185
+  first_blood_time: 110
+  lobby_type: 7
+  human_players: 10
+  leagueid: 0
+  positive_votes: 0
+  negative_votes: 0
+  game_mode: 22
+  engine: 1
+  created_at: 2015-12-01 07:58:07.000000000 Z
+  updated_at: 2015-12-01 07:58:07.000000000 Z

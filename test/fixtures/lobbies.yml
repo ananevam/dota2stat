@@ -1,7 +1,50 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  name: MyString
-
-two:
-  name: MyString
+lobby_-1:
+  id: -1
+  name: Invalid
+  created_at: 2015-11-24 05:27:47.000000000 Z
+  updated_at: 2015-11-24 05:27:47.000000000 Z
+lobby_0:
+  id: 0
+  name: Public matchmaking
+  created_at: 2015-11-24 05:27:47.000000000 Z
+  updated_at: 2015-11-24 05:27:47.000000000 Z
+lobby_1:
+  id: 1
+  name: Practice
+  created_at: 2015-11-24 05:27:47.000000000 Z
+  updated_at: 2015-11-24 05:27:47.000000000 Z
+lobby_2:
+  id: 2
+  name: Tournament
+  created_at: 2015-11-24 05:27:47.000000000 Z
+  updated_at: 2015-11-24 05:27:47.000000000 Z
+lobby_3:
+  id: 3
+  name: Tutorial
+  created_at: 2015-11-24 05:27:47.000000000 Z
+  updated_at: 2015-11-24 05:27:47.000000000 Z
+lobby_4:
+  id: 4
+  name: Co-op with bots
+  created_at: 2015-11-24 05:27:47.000000000 Z
+  updated_at: 2015-11-24 05:27:47.000000000 Z
+lobby_5:
+  id: 5
+  name: Team match
+  created_at: 2015-11-24 05:27:47.000000000 Z
+  updated_at: 2015-11-24 05:27:47.000000000 Z
+lobby_6:
+  id: 6
+  name: Solo Queue
+  created_at: 2015-11-24 05:27:47.000000000 Z
+  updated_at: 2015-11-24 05:27:47.000000000 Z
+lobby_7:
+  id: 7
+  name: Ranked
+  created_at: 2015-11-24 05:27:47.000000000 Z
+  updated_at: 2015-11-24 05:27:47.000000000 Z
+lobby_8:
+  id: 8
+  name: Solo Mid 1vs1
+  created_at: 2015-11-24 05:27:47.000000000 Z
+  updated_at: 2015-11-24 05:27:47.000000000 Z

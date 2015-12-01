@@ -1,0 +1,660 @@
+hero_1:
+  id: 1
+  name: npc_dota_hero_antimage
+  localized_name: Anti-Mage
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_2:
+  id: 2
+  name: npc_dota_hero_axe
+  localized_name: Axe
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_3:
+  id: 3
+  name: npc_dota_hero_bane
+  localized_name: Bane
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_4:
+  id: 4
+  name: npc_dota_hero_bloodseeker
+  localized_name: Bloodseeker
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_5:
+  id: 5
+  name: npc_dota_hero_crystal_maiden
+  localized_name: Crystal Maiden
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_6:
+  id: 6
+  name: npc_dota_hero_drow_ranger
+  localized_name: Drow Ranger
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_7:
+  id: 7
+  name: npc_dota_hero_earthshaker
+  localized_name: Earthshaker
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_8:
+  id: 8
+  name: npc_dota_hero_juggernaut
+  localized_name: Juggernaut
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_9:
+  id: 9
+  name: npc_dota_hero_mirana
+  localized_name: Mirana
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_10:
+  id: 10
+  name: npc_dota_hero_morphling
+  localized_name: Morphling
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_11:
+  id: 11
+  name: npc_dota_hero_nevermore
+  localized_name: Shadow Fiend
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_12:
+  id: 12
+  name: npc_dota_hero_phantom_lancer
+  localized_name: Phantom Lancer
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_13:
+  id: 13
+  name: npc_dota_hero_puck
+  localized_name: Puck
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_14:
+  id: 14
+  name: npc_dota_hero_pudge
+  localized_name: Pudge
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_15:
+  id: 15
+  name: npc_dota_hero_razor
+  localized_name: Razor
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_16:
+  id: 16
+  name: npc_dota_hero_sand_king
+  localized_name: Sand King
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_17:
+  id: 17
+  name: npc_dota_hero_storm_spirit
+  localized_name: Storm Spirit
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_18:
+  id: 18
+  name: npc_dota_hero_sven
+  localized_name: Sven
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_19:
+  id: 19
+  name: npc_dota_hero_tiny
+  localized_name: Tiny
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_20:
+  id: 20
+  name: npc_dota_hero_vengefulspirit
+  localized_name: Vengeful Spirit
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_21:
+  id: 21
+  name: npc_dota_hero_windrunner
+  localized_name: Windranger
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_22:
+  id: 22
+  name: npc_dota_hero_zuus
+  localized_name: Zeus
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_23:
+  id: 23
+  name: npc_dota_hero_kunkka
+  localized_name: Kunkka
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_25:
+  id: 25
+  name: npc_dota_hero_lina
+  localized_name: Lina
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_26:
+  id: 26
+  name: npc_dota_hero_lion
+  localized_name: Lion
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_27:
+  id: 27
+  name: npc_dota_hero_shadow_shaman
+  localized_name: Shadow Shaman
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_28:
+  id: 28
+  name: npc_dota_hero_slardar
+  localized_name: Slardar
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_29:
+  id: 29
+  name: npc_dota_hero_tidehunter
+  localized_name: Tidehunter
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_30:
+  id: 30
+  name: npc_dota_hero_witch_doctor
+  localized_name: Witch Doctor
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_31:
+  id: 31
+  name: npc_dota_hero_lich
+  localized_name: Lich
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_32:
+  id: 32
+  name: npc_dota_hero_riki
+  localized_name: Riki
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_33:
+  id: 33
+  name: npc_dota_hero_enigma
+  localized_name: Enigma
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_34:
+  id: 34
+  name: npc_dota_hero_tinker
+  localized_name: Tinker
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_35:
+  id: 35
+  name: npc_dota_hero_sniper
+  localized_name: Sniper
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_36:
+  id: 36
+  name: npc_dota_hero_necrolyte
+  localized_name: Necrophos
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_37:
+  id: 37
+  name: npc_dota_hero_warlock
+  localized_name: Warlock
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_38:
+  id: 38
+  name: npc_dota_hero_beastmaster
+  localized_name: Beastmaster
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_39:
+  id: 39
+  name: npc_dota_hero_queenofpain
+  localized_name: Queen of Pain
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_40:
+  id: 40
+  name: npc_dota_hero_venomancer
+  localized_name: Venomancer
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_41:
+  id: 41
+  name: npc_dota_hero_faceless_void
+  localized_name: Faceless Void
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_42:
+  id: 42
+  name: npc_dota_hero_skeleton_king
+  localized_name: Wraith King
+  created_at: 2015-11-24 05:26:49.000000000 Z
+  updated_at: 2015-11-24 05:26:49.000000000 Z
+hero_43:
+  id: 43
+  name: npc_dota_hero_death_prophet
+  localized_name: Death Prophet
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_44:
+  id: 44
+  name: npc_dota_hero_phantom_assassin
+  localized_name: Phantom Assassin
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_45:
+  id: 45
+  name: npc_dota_hero_pugna
+  localized_name: Pugna
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_46:
+  id: 46
+  name: npc_dota_hero_templar_assassin
+  localized_name: Templar Assassin
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_47:
+  id: 47
+  name: npc_dota_hero_viper
+  localized_name: Viper
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_48:
+  id: 48
+  name: npc_dota_hero_luna
+  localized_name: Luna
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_49:
+  id: 49
+  name: npc_dota_hero_dragon_knight
+  localized_name: Dragon Knight
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_50:
+  id: 50
+  name: npc_dota_hero_dazzle
+  localized_name: Dazzle
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_51:
+  id: 51
+  name: npc_dota_hero_rattletrap
+  localized_name: Clockwerk
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_52:
+  id: 52
+  name: npc_dota_hero_leshrac
+  localized_name: Leshrac
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_53:
+  id: 53
+  name: npc_dota_hero_furion
+  localized_name: Nature's Prophet
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_54:
+  id: 54
+  name: npc_dota_hero_life_stealer
+  localized_name: Lifestealer
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_55:
+  id: 55
+  name: npc_dota_hero_dark_seer
+  localized_name: Dark Seer
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_56:
+  id: 56
+  name: npc_dota_hero_clinkz
+  localized_name: Clinkz
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_57:
+  id: 57
+  name: npc_dota_hero_omniknight
+  localized_name: Omniknight
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_58:
+  id: 58
+  name: npc_dota_hero_enchantress
+  localized_name: Enchantress
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_59:
+  id: 59
+  name: npc_dota_hero_huskar
+  localized_name: Huskar
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_60:
+  id: 60
+  name: npc_dota_hero_night_stalker
+  localized_name: Night Stalker
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_61:
+  id: 61
+  name: npc_dota_hero_broodmother
+  localized_name: Broodmother
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_62:
+  id: 62
+  name: npc_dota_hero_bounty_hunter
+  localized_name: Bounty Hunter
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_63:
+  id: 63
+  name: npc_dota_hero_weaver
+  localized_name: Weaver
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_64:
+  id: 64
+  name: npc_dota_hero_jakiro
+  localized_name: Jakiro
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_65:
+  id: 65
+  name: npc_dota_hero_batrider
+  localized_name: Batrider
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_66:
+  id: 66
+  name: npc_dota_hero_chen
+  localized_name: Chen
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_67:
+  id: 67
+  name: npc_dota_hero_spectre
+  localized_name: Spectre
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_68:
+  id: 68
+  name: npc_dota_hero_ancient_apparition
+  localized_name: Ancient Apparition
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_69:
+  id: 69
+  name: npc_dota_hero_doom_bringer
+  localized_name: Doom
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_70:
+  id: 70
+  name: npc_dota_hero_ursa
+  localized_name: Ursa
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_71:
+  id: 71
+  name: npc_dota_hero_spirit_breaker
+  localized_name: Spirit Breaker
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_72:
+  id: 72
+  name: npc_dota_hero_gyrocopter
+  localized_name: Gyrocopter
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_73:
+  id: 73
+  name: npc_dota_hero_alchemist
+  localized_name: Alchemist
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_74:
+  id: 74
+  name: npc_dota_hero_invoker
+  localized_name: Invoker
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_75:
+  id: 75
+  name: npc_dota_hero_silencer
+  localized_name: Silencer
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_76:
+  id: 76
+  name: npc_dota_hero_obsidian_destroyer
+  localized_name: Outworld Devourer
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_77:
+  id: 77
+  name: npc_dota_hero_lycan
+  localized_name: Lycan
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_78:
+  id: 78
+  name: npc_dota_hero_brewmaster
+  localized_name: Brewmaster
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_79:
+  id: 79
+  name: npc_dota_hero_shadow_demon
+  localized_name: Shadow Demon
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_80:
+  id: 80
+  name: npc_dota_hero_lone_druid
+  localized_name: Lone Druid
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_81:
+  id: 81
+  name: npc_dota_hero_chaos_knight
+  localized_name: Chaos Knight
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_82:
+  id: 82
+  name: npc_dota_hero_meepo
+  localized_name: Meepo
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_83:
+  id: 83
+  name: npc_dota_hero_treant
+  localized_name: Treant Protector
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_84:
+  id: 84
+  name: npc_dota_hero_ogre_magi
+  localized_name: Ogre Magi
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_85:
+  id: 85
+  name: npc_dota_hero_undying
+  localized_name: Undying
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_86:
+  id: 86
+  name: npc_dota_hero_rubick
+  localized_name: Rubick
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_87:
+  id: 87
+  name: npc_dota_hero_disruptor
+  localized_name: Disruptor
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_88:
+  id: 88
+  name: npc_dota_hero_nyx_assassin
+  localized_name: Nyx Assassin
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_89:
+  id: 89
+  name: npc_dota_hero_naga_siren
+  localized_name: Naga Siren
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_90:
+  id: 90
+  name: npc_dota_hero_keeper_of_the_light
+  localized_name: Keeper of the Light
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_91:
+  id: 91
+  name: npc_dota_hero_wisp
+  localized_name: Io
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_92:
+  id: 92
+  name: npc_dota_hero_visage
+  localized_name: Visage
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_93:
+  id: 93
+  name: npc_dota_hero_slark
+  localized_name: Slark
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_94:
+  id: 94
+  name: npc_dota_hero_medusa
+  localized_name: Medusa
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_95:
+  id: 95
+  name: npc_dota_hero_troll_warlord
+  localized_name: Troll Warlord
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_96:
+  id: 96
+  name: npc_dota_hero_centaur
+  localized_name: Centaur Warrunner
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_97:
+  id: 97
+  name: npc_dota_hero_magnataur
+  localized_name: Magnus
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_98:
+  id: 98
+  name: npc_dota_hero_shredder
+  localized_name: Timbersaw
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_99:
+  id: 99
+  name: npc_dota_hero_bristleback
+  localized_name: Bristleback
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_100:
+  id: 100
+  name: npc_dota_hero_tusk
+  localized_name: Tusk
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_101:
+  id: 101
+  name: npc_dota_hero_skywrath_mage
+  localized_name: Skywrath Mage
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_102:
+  id: 102
+  name: npc_dota_hero_abaddon
+  localized_name: Abaddon
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_103:
+  id: 103
+  name: npc_dota_hero_elder_titan
+  localized_name: Elder Titan
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_104:
+  id: 104
+  name: npc_dota_hero_legion_commander
+  localized_name: Legion Commander
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_105:
+  id: 105
+  name: npc_dota_hero_techies
+  localized_name: Techies
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_106:
+  id: 106
+  name: npc_dota_hero_ember_spirit
+  localized_name: Ember Spirit
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_107:
+  id: 107
+  name: npc_dota_hero_earth_spirit
+  localized_name: Earth Spirit
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_109:
+  id: 109
+  name: npc_dota_hero_terrorblade
+  localized_name: Terrorblade
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_110:
+  id: 110
+  name: npc_dota_hero_phoenix
+  localized_name: Phoenix
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_111:
+  id: 111
+  name: npc_dota_hero_oracle
+  localized_name: Oracle
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z
+hero_112:
+  id: 112
+  name: npc_dota_hero_winter_wyvern
+  localized_name: Winter Wyvern
+  created_at: 2015-11-24 05:26:50.000000000 Z
+  updated_at: 2015-11-24 05:26:50.000000000 Z

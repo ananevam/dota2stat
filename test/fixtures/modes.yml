@@ -1,7 +1,115 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  name: MyString
-
-two:
-  name: MyString
+mode_0:
+  id: 0
+  name: Unknown
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_1:
+  id: 1
+  name: All Pick
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_2:
+  id: 2
+  name: Captains Mode
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_3:
+  id: 3
+  name: Random Draft
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_4:
+  id: 4
+  name: Single Draft
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_5:
+  id: 5
+  name: All Random
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_6:
+  id: 6
+  name: "?? INTRO/DEATH ??"
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_7:
+  id: 7
+  name: The Diretide
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_8:
+  id: 8
+  name: Reverse Captains Mode
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_9:
+  id: 9
+  name: Greeviling
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_10:
+  id: 10
+  name: Tutorial
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_11:
+  id: 11
+  name: Mid Only
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_12:
+  id: 12
+  name: Least Played
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_13:
+  id: 13
+  name: New Player Pool
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_14:
+  id: 14
+  name: Compendium Matchmaking
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_15:
+  id: 15
+  name: Custom
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_16:
+  id: 16
+  name: Captains Draft
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_17:
+  id: 17
+  name: Balanced Draft
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_18:
+  id: 18
+  name: Ability Draft
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_19:
+  id: 19
+  name: "?? Event ??"
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_20:
+  id: 20
+  name: All Random Death Match
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_21:
+  id: 21
+  name: 1vs1 Solo Mid
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z
+mode_22:
+  id: 22
+  name: Ranked All Pick
+  created_at: 2015-11-24 05:28:04.000000000 Z
+  updated_at: 2015-11-24 05:28:04.000000000 Z

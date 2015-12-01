@@ -1,7 +1,260 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  name: MyString
-
-two:
-  name: MyString
+region_111:
+  id: 111
+  name: US West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_112:
+  id: 112
+  name: US West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_113:
+  id: 113
+  name: US West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_114:
+  id: 114
+  name: US West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_121:
+  id: 121
+  name: US East
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_122:
+  id: 122
+  name: US East
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_123:
+  id: 123
+  name: US East
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_124:
+  id: 124
+  name: US East
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_131:
+  id: 131
+  name: Europe West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_132:
+  id: 132
+  name: Europe West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_133:
+  id: 133
+  name: Europe West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_134:
+  id: 134
+  name: Europe West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_135:
+  id: 135
+  name: Europe West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_136:
+  id: 136
+  name: Europe West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_137:
+  id: 137
+  name: Europe West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_138:
+  id: 138
+  name: Europe West
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_142:
+  id: 142
+  name: South Korea
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_143:
+  id: 143
+  name: South Korea
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_151:
+  id: 151
+  name: Southeast Asia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_152:
+  id: 152
+  name: Southeast Asia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_153:
+  id: 153
+  name: Southeast Asia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_154:
+  id: 154
+  name: Southeast Asia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_155:
+  id: 155
+  name: Southeast Asia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_161:
+  id: 161
+  name: China
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_163:
+  id: 163
+  name: China
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_171:
+  id: 171
+  name: Australia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_181:
+  id: 181
+  name: Russia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_182:
+  id: 182
+  name: Russia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_183:
+  id: 183
+  name: Russia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_184:
+  id: 184
+  name: Russia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_185:
+  id: 185
+  name: Russia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_186:
+  id: 186
+  name: Russia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_187:
+  id: 187
+  name: Russia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_188:
+  id: 188
+  name: Russia
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_191:
+  id: 191
+  name: Europe East
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_192:
+  id: 192
+  name: Europe East
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_200:
+  id: 200
+  name: South America
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_202:
+  id: 202
+  name: South America
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_203:
+  id: 203
+  name: South America
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_204:
+  id: 204
+  name: South America
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_211:
+  id: 211
+  name: South Africa
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_212:
+  id: 212
+  name: South Africa
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_213:
+  id: 213
+  name: South Africa
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_221:
+  id: 221
+  name: China
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_222:
+  id: 222
+  name: China
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_223:
+  id: 223
+  name: China
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_224:
+  id: 224
+  name: China
+  created_at: 2015-11-24 05:28:16.000000000 Z
+  updated_at: 2015-11-24 05:28:16.000000000 Z
+region_225:
+  id: 225
+  name: China
+  created_at: 2015-11-24 05:28:17.000000000 Z
+  updated_at: 2015-11-24 05:28:17.000000000 Z
+region_231:
+  id: 231
+  name: China
+  created_at: 2015-11-24 05:28:17.000000000 Z
+  updated_at: 2015-11-24 05:28:17.000000000 Z
+region_242:
+  id: 242
+  name: Chile
+  created_at: 2015-11-24 05:28:17.000000000 Z
+  updated_at: 2015-11-24 05:28:17.000000000 Z
+region_251:
+  id: 251
+  name: Peru
+  created_at: 2015-11-24 05:28:17.000000000 Z
+  updated_at: 2015-11-24 05:28:17.000000000 Z
+region_261:
+  id: 261
+  name: India
+  created_at: 2015-11-24 05:28:17.000000000 Z
+  updated_at: 2015-11-24 05:28:17.000000000 Z
