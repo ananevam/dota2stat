@@ -78,6 +78,8 @@ en:
     radiant: "Radiant Team"
     dire_win: "Dire Victory"
     radiant_win: "Radiant Victory"
+    dire_builds: "Dire Builds"
+    radiant_builds: "Radiant Builds"
 
   languages:
     title: "Language"

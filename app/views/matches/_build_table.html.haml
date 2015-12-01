@@ -1,0 +1,14 @@
+%table.table.table-striped.table-condensed.table-builds
+  %thead
+    %tr
+      %th= t('table.hero')
+      - (1..25).each do |i|
+        %th= i
+  %tbody
+    - players.each do |player|
+      %tr
+        %td= image_tag player.hero.picture_url
+        - player.ability_players.each do |ap|
+          %td= image_tag ap.ability.picture_url
+        -(player.ability_players.count..24).each do
+          %td

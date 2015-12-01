@@ -58,6 +58,8 @@ ru:
     radiant: "Radiant команда"
     dire_win: "Победа Dire"
     radiant_win: "Победа Radiant"
+    dire_builds: "Сборки Dire"
+    radiant_builds: "Сборки Radiant"
 
   languages:
     title: "Язык"

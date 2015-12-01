@@ -25,9 +25,19 @@
 
 .panel.panel-default.panel-team-table
   .panel-heading
-    %h3.panel-title radiant
+    %h3{class: "panel-title radiant_color"}= t('team.radiant')
   = render :partial => 'team_table', :locals => {:players => @match.radiant_players }
 .panel.panel-default.panel-team-table
   .panel-heading
-    %h3.panel-title dire
+    %h3{class: "panel-title dire_color"}= t('team.dire')
   = render :partial => 'team_table', :locals => {:players => @match.dire_players }
+
+.panel.panel-default.panel-team-table
+  .panel-heading
+    %h3{class: "panel-title radiant_color"}= t('team.radiant_builds')
+  = render :partial => 'build_table', :locals => {:players => @match.radiant_players }
+
+.panel.panel-default.panel-team-table
+  .panel-heading
+    %h3{class: "panel-title dire_color"}= t('team.dire_builds')
+  = render :partial => 'build_table', :locals => {:players => @match.dire_players }

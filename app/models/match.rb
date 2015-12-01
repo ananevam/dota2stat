@@ -10,11 +10,11 @@ class Match < ActiveRecord::Base
   belongs_to :region, :foreign_key => :cluster
 
   def dire_players
-    players.select {|player| player.player_slot >= Player::PLAYER_SLOT_SPLIT_ID}
+    players.includes({:ability_players => :ability}, :hero, :items).select {|player| player.player_slot >= Player::PLAYER_SLOT_SPLIT_ID}
   end
 
   def radiant_players
-    players.select {|player| player.player_slot < Player::PLAYER_SLOT_SPLIT_ID}
+    players.includes({:ability_players => :ability}, :hero, :items).select {|player| player.player_slot < Player::PLAYER_SLOT_SPLIT_ID}
   end
 
   def end_time
