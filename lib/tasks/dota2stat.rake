@@ -168,7 +168,5 @@ namespace :dota2stat do
         page_number = page_number + 1
       end
     end
-
-
   end
 end

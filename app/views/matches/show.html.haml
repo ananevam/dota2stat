@@ -32,6 +32,11 @@
     %h3{class: "panel-title dire_color"}= t('team.dire')
   = render :partial => 'team_table', :locals => {:players => @match.dire_players }
 
+.row
+  .col-md-8
+
+  .col-md-4=image_tag @match.map_picture.url(:medium)
+
 .panel.panel-default.panel-team-table
   .panel-heading
     %h3{class: "panel-title radiant_color"}= t('team.radiant_builds')

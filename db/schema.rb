@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151201114101) do
+ActiveRecord::Schema.define(version: 20151202105903) do
 
   create_table "abilities", force: :cascade do |t|
     t.string   "name",       limit: 255
@@ -66,24 +66,30 @@ ActiveRecord::Schema.define(version: 20151201114101) do
   end
 
   create_table "matches", force: :cascade do |t|
-    t.integer  "win",                  limit: 4, default: 0
-    t.integer  "skill",                limit: 4
-    t.integer  "duration",             limit: 4, default: 0
+    t.integer  "win",                      limit: 4,   default: 0
+    t.integer  "skill",                    limit: 4
+    t.integer  "duration",                 limit: 4,   default: 0
     t.datetime "start_time"
-    t.integer  "match_seq_num",        limit: 4
-    t.integer  "tower_status_radiant", limit: 4
-    t.integer  "tower_status_dire",    limit: 4
-    t.integer  "cluster",              limit: 4
-    t.integer  "first_blood_time",     limit: 4
-    t.integer  "lobby_type",           limit: 4
-    t.integer  "human_players",        limit: 4, default: 0
-    t.integer  "leagueid",             limit: 4
-    t.integer  "positive_votes",       limit: 4, default: 0
-    t.integer  "negative_votes",       limit: 4, default: 0
-    t.integer  "game_mode",            limit: 4
-    t.integer  "engine",               limit: 4
-    t.datetime "created_at",                                 null: false
-    t.datetime "updated_at",                                 null: false
+    t.integer  "match_seq_num",            limit: 4
+    t.integer  "tower_status_radiant",     limit: 4
+    t.integer  "tower_status_dire",        limit: 4
+    t.integer  "barracks_status_radiant",  limit: 4,   default: 0
+    t.integer  "barracks_status_dire",     limit: 4,   default: 0
+    t.integer  "cluster",                  limit: 4
+    t.integer  "first_blood_time",         limit: 4
+    t.integer  "lobby_type",               limit: 4
+    t.integer  "human_players",            limit: 4,   default: 0
+    t.integer  "leagueid",                 limit: 4
+    t.integer  "positive_votes",           limit: 4,   default: 0
+    t.integer  "negative_votes",           limit: 4,   default: 0
+    t.integer  "game_mode",                limit: 4
+    t.integer  "engine",                   limit: 4
+    t.datetime "map_picture_updated_at"
+    t.integer  "map_picture_file_size",    limit: 4
+    t.string   "map_picture_content_type", limit: 255
+    t.string   "map_picture_file_name",    limit: 255
+    t.datetime "created_at",                                       null: false
+    t.datetime "updated_at",                                       null: false
   end
 
   add_index "matches", ["game_mode"], name: "index_matches_on_game_mode", using: :btree
