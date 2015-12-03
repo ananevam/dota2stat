@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/ananevam/projects/ruby/dota2api
+GIT
+  remote: git://github.com/ananevam/dota2api.git
+  revision: a22020b5ec08462a2ff17f6c2f8d41f92c41a934
   specs:
     dota2api (0.0.1)
       mini_magick
