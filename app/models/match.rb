@@ -17,8 +17,9 @@ class Match < ActiveRecord::Base
                     url: :set_map_picture_url
 
   def set_map_picture_url
-    "/system/:attachment/#{self.start_time.strftime("%Y-%m")}/:id/map_:style.:extension"
+    "/system/:attachment/#{self.start_time.strftime("%Y")}/#{self.start_time.strftime("%m")}/:id/map_:style.:extension"
   end
+  private :set_map_picture_url
 
   def dire_players
     players.includes({:ability_players => :ability}, :hero, :items).select {|player| player.player_slot >= Player::PLAYER_SLOT_SPLIT_ID}
@@ -43,5 +44,7 @@ class Match < ActiveRecord::Base
     self.map_picture = File.open generate_map.path
     self.save
   end
+
+
 
 end
