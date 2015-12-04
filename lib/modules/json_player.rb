@@ -12,6 +12,8 @@ module JsonPlayer
       player[field] = json_player[field]
     end
 
+    player.team = json_player[:player_slot] >= Player::PLAYER_SLOT_SPLIT_ID ? Player::TEAM_DIRE : Player::TEAM_RADIANT
+
     json_item_ids = 0.upto(5).map{|num| json_player["item_#{num}".to_sym]}
     player.items.delete_all
     json_item_ids.each do |item_id|

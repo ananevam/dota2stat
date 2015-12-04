@@ -13,6 +13,9 @@ class Player < ActiveRecord::Base
   has_many :matches
 
   PLAYER_SLOT_SPLIT_ID = 128
+  TEAM_DIRE = "dire"
+  TEAM_RADIANT = "radiant"
+  enum team: [ TEAM_RADIANT, TEAM_DIRE]
 
   def kda
     (kills + assists).to_f / (deaths > 0 ? deaths : 1)
@@ -23,7 +26,7 @@ class Player < ActiveRecord::Base
   end
 
   def win?
-    ((player_slot >= Player::PLAYER_SLOT_SPLIT_ID and match.win == "dire") or
-        (player_slot < Player::PLAYER_SLOT_SPLIT_ID and match.win == "radiant")) ? true : false
+    ((team == TEAM_DIRE and match.win == TEAM_DIRE) or
+        (team == TEAM_RADIANT and match.win == TEAM_RADIANT)) ? true : false
   end
 end

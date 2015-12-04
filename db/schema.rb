@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151204060005) do
+ActiveRecord::Schema.define(version: 20151204065852) do
 
   create_table "abilities", force: :cascade do |t|
     t.string   "name",       limit: 255
@@ -105,6 +105,7 @@ ActiveRecord::Schema.define(version: 20151204060005) do
 
   create_table "players", force: :cascade do |t|
     t.string   "account_id",    limit: 255
+    t.integer  "team",          limit: 4
     t.integer  "player_slot",   limit: 4
     t.integer  "hero_id",       limit: 4
     t.integer  "kills",         limit: 4,   default: 0
@@ -128,6 +129,7 @@ ActiveRecord::Schema.define(version: 20151204060005) do
 
   add_index "players", ["account_id"], name: "index_players_on_account_id", using: :btree
   add_index "players", ["hero_id"], name: "index_players_on_hero_id", using: :btree
+  add_index "players", ["team"], name: "index_players_on_team", using: :btree
 
   create_table "regions", force: :cascade do |t|
     t.string   "name",       limit: 255

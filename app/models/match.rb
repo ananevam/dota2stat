@@ -2,7 +2,7 @@
 class Match < ActiveRecord::Base
   include JsonMatch
 
-  enum win: [ :radiant, :dire]
+  enum win: [ Player::TEAM_RADIANT, Player::TEAM_DIRE]
 
   has_many :players, :dependent => :destroy
   belongs_to :lobby, :foreign_key => :lobby_type
@@ -22,11 +22,11 @@ class Match < ActiveRecord::Base
   private :set_map_picture_url
 
   def dire_players
-    players.includes({:ability_players => :ability}, :hero, :items).select {|player| player.player_slot >= Player::PLAYER_SLOT_SPLIT_ID}
+    players.includes({:ability_players => :ability}, :hero, :items).select {|player| player.team == Player::TEAM_DIRE}
   end
 
   def radiant_players
-    players.includes({:ability_players => :ability}, :hero, :items).select {|player| player.player_slot < Player::PLAYER_SLOT_SPLIT_ID}
+    players.includes({:ability_players => :ability}, :hero, :items).select {|player| player.team == Player::TEAM_RADIANT}
   end
 
   def end_time
