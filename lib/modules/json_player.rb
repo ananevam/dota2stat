@@ -23,7 +23,7 @@ module JsonPlayer
     end
 
     player.abilities.delete_all
-    if defined?(json_player[:ability_upgrades])
+    unless json_player[:ability_upgrades].nil?
       json_player[:ability_upgrades].each do |json_ability|
         player.ability_players << AbilityPlayer.new(
             :ability_id => json_ability[:ability],

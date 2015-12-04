@@ -72,6 +72,9 @@ en:
     items_tip: "Items in inventory at the end of the Match"
     latest_matches: "Latest Matches"
     match_id: "Match ID"
+    in_my_team: "In my team"
+    in_enemy_team: "In enemy team"
+    game_count: "Game count"
 
   team:
     dire: "Dire Team"

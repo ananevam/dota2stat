@@ -1,0 +1,38 @@
+=render 'user_overview'
+=render 'tabs'
+.media
+  .media-left
+    =image_tag @hero.picture_url
+  .media-body
+    %h4.media-heading
+      =@hero.localized_name
+%br
+
+.row
+  .col-md-6
+    .panel.panel-default
+      .panel-heading
+        %h3.panel-title
+          =t('table.in_my_team')
+
+      %ul.list-group
+        %li.list-group-item
+          %span.badge= @my_team[:count]
+          =t('table.game_count')
+        %li.list-group-item
+          %span.badge= kda_format(kda(@my_team[:kills], @my_team[:deaths], @my_team[:assists]))
+          =t('table.kda_ratio')
+
+  .col-md-6
+    .panel.panel-default
+      .panel-heading
+        %h3.panel-title
+          =t('table.in_enemy_team')
+
+      %ul.list-group
+        %li.list-group-item
+          %span.badge= @enemy_team[:count]
+          =t('table.game_count')
+        %li.list-group-item
+          %span.badge= kda_format(kda(@enemy_team[:kills], @enemy_team[:deaths], @enemy_team[:assists]))
+          =t('table.kda_ratio')

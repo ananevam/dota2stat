@@ -168,5 +168,18 @@ namespace :dota2stat do
         page_number = page_number + 1
       end
     end
+
+    desc "test"
+    task :test => :environment do
+
+        unless match = Match.find_by_id(1025498949)
+          json_detail_match = Dota2api.get_match_details({:match_id => 1025498949})
+          match = Match.create_from_json(json_detail_match)
+
+          print "Update match #{match.id}\r\n"
+        else
+          print "Match #{match.id} found\r\n"
+        end
+    end
   end
 end

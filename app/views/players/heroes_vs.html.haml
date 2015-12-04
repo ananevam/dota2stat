@@ -1,0 +1,4 @@
+=render 'user_overview'
+=render 'tabs'
+- @heroes.each do |hero|
+  =link_to image_tag(hero.picture_url, class: "img-thumbnail"), hero_vs_path(@user.account_id, hero)

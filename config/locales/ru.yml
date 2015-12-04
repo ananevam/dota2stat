@@ -52,6 +52,9 @@ ru:
     items_tip: "Предметы в инвентаре в конце матча"
     latest_matches: "Последние матчи"
     match_id: "Номер матча"
+    in_my_team: "В моей команде"
+    in_enemy_team: "Во вражеской команде"
+    game_count: "Количество игр"
 
   team:
     dire: "Dire команда"
