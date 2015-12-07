@@ -3,5 +3,7 @@
     =link_to t('table.overview'), player_path(@user.account_id)
   %li{role: :presentation, :class => current_page?(player_matches_path(@user.account_id)) ? 'active':''}
     =link_to t('table.matches'), player_matches_path(@user.account_id)
+  %li{role: :presentation, :class => current_page?(player_records_path(@user.account_id)) ? 'active':''}
+    =link_to t('table.records'), player_records_path(@user.account_id)
   %li{role: :presentation, :class => current_page?(heroes_vs_path(@user.account_id)) ? 'active':''}
     =link_to t('table.in_my_team'), heroes_vs_path(@user.account_id)

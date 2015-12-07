@@ -76,3 +76,52 @@ acronym {
   border-bottom: 1px dashed white; /* Подчеркивание текста */
   cursor: default;
 }
+.record{
+  padding: 5px;
+  display: inline-block;
+  width: 266px;
+  height: 154px;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0 1px 1px #0a0a0a;
+  position: relative;
+  .backdrop{
+    background: rgba(10,10,10,0.6);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+  }
+  &:hover{
+    .backdrop{
+      background: rgba(10,10,10,0.3);
+    }
+  }
+  a{
+    position: relative;
+    z-index: 2;
+    display: block;
+    &:hover{
+      text-decoration: none!important;
+    }
+  }
+
+  .record-title{
+    font-size: 16px;
+    padding-top: 10px;
+    color:white;
+  }
+  .record-value{
+    color: #A9CF54;
+    font-size: 28px;
+  }
+  .record-hero{
+      font-size: 20px;
+      color:white;
+  }
+}

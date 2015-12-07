@@ -60,6 +60,21 @@ class PlayersController < ApplicationController
         .select("AVG(players2.hero_damage) as hero_damage_value")[0].hero_damage_value.to_i
   end
 
+  def records
+    @longest = Match.joins(:players).where("players.account_id" => @user.account_id).order(:duration => :desc).first
+    @max_kills = Player.where(:account_id => @user.account_id).order(:kills => :desc).first
+    @max_assists = Player.where(:account_id => @user.account_id).order(:assists => :desc).first
+    @max_last_hits = Player.where(:account_id => @user.account_id).order(:last_hits => :desc).first
+    @max_denies = Player.where(:account_id => @user.account_id).order(:denies => :desc).first
+    @max_gold = Player.joins(:match).where(:account_id => @user.account_id)
+      .select("(gold_per_min / 60 * matches.duration) as all_gold, players.*").order("all_gold DESC").first
+    @max_xp = Player.joins(:match).where(:account_id => @user.account_id)
+      .select("(xp_per_min * (matches.duration/60)) as all_xp, players.*").order("all_xp DESC").first
+    @max_hd = Player.where(:account_id => @user.account_id).order(:hero_damage => :desc).first
+    @max_hh = Player.where(:account_id => @user.account_id).order(:hero_healing => :desc).first
+    @max_td = Player.where(:account_id => @user.account_id).order(:tower_damage => :desc).first
+  end
+
   private
   def matches_by_account_id account_id
     Match.joins(:players).includes({:players => :hero}, :lobby)

@@ -1,0 +1,40 @@
+=render :partial => 'record', :locals => {title: t('record.longest_match'), player: @longest.player_by_user(@user), |
+  value: duration_format(@longest.duration) |
+} |
+-#
+=render :partial => 'record', :locals => {title: t('record.most_kills'), player: @max_kills, |
+  value: @max_kills.kills |
+} |
+-#
+=render :partial => 'record', :locals => {title: t('record.most_assists'), player: @max_assists, |
+  value: @max_assists.assists |
+} |
+-#
+=render :partial => 'record', :locals => {title: t('record.most_last_hits'), player: @max_last_hits, |
+  value: @max_last_hits.last_hits |
+} |
+-#
+=render :partial => 'record', :locals => {title: t('record.most_denies'), player: @max_denies, |
+  value: @max_denies.denies |
+} |
+-#
+=render :partial => 'record', :locals => {title: t('record.most_gold'), player: @max_gold, |
+  value: how_k(@max_gold.all_gold) |
+} |
+-#
+=render :partial => 'record', :locals => {title: t('record.most_exp'), player: @max_xp, |
+  value: how_k(@max_xp.all_xp) |
+} |
+-#
+=render :partial => 'record', :locals => {title: t('record.most_hd'), player: @max_hd, |
+  value: how_k(@max_hd.hero_damage) |
+} |
+-#
+=render :partial => 'record', :locals => {title: t('record.most_hh'), player: @max_hh, |
+  value: how_k(@max_hh.hero_healing) |
+} |
+-#
+=render :partial => 'record', :locals => {title: t('record.most_td'), player: @max_hh, |
+  value: how_k(@max_td.tower_damage) |
+} |
+-#

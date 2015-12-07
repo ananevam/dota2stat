@@ -1,0 +1,10 @@
+.record{:style => "background-image: url(#{player.hero.picture_url(:full)});"}
+  .backdrop
+  %a{href: match_path(player.match)}
+    .record-title= title
+    .record-value= value
+    .record-hero= player.hero.localized_name
+    .record-time
+      = player.win? ? t("table.won_match") : t("table.lose_match")
+      = time_ago_in_words(player.match.start_time)
+      = t('table.time_ago')

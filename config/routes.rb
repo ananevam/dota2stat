@@ -16,5 +16,7 @@ Rails.application.routes.draw do
 
     get 'players/:account_id/heroes_vs' => "players#heroes_vs", as: :heroes_vs
     get 'players/:account_id/heroes_vs/:id' => "players#heroes_vs_show", as: :hero_vs
+    get 'players/:account_id/records' => "players#records", as: :player_records
+
   end
 end

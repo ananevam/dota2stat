@@ -75,7 +75,19 @@ en:
     in_my_team: "In my team"
     in_enemy_team: "In enemy team"
     game_count: "Game count"
-
+    records: "Records"
+    time_ago: "ago"
+  record:
+    longest_match: "Longest Match"
+    most_kills: "Most Kills"
+    most_assists: "Most Assists"
+    most_last_hits: "Most Last Hits"
+    most_denies: "Most Denies"
+    most_gold: "Most Gold"
+    most_exp: "Most Experience"
+    most_hd: "Most Hero Damage"
+    most_hh: "Most Hero Healing"
+    most_td: "Most Tower Damage"
   team:
     dire: "Dire Team"
     radiant: "Radiant Team"
@@ -88,9 +100,3 @@ en:
     title: "Language"
     ru: "Русский"
     en: "English"
-
-
-
-
-
-
