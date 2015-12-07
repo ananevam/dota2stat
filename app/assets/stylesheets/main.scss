@@ -1,6 +1,10 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html.turbolinks-progress-bar::before {
+  background-color: #A9CF54 !important;
+  height: 3px !important;
+}
 .container{
   .panel-match-overview {
     border-top: none;
@@ -76,6 +80,7 @@ acronym {
   border-bottom: 1px dashed white; /* Подчеркивание текста */
   cursor: default;
 }
+
 .record{
   padding: 5px;
   display: inline-block;

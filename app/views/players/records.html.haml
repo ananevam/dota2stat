@@ -1,5 +1,6 @@
 =render 'user_overview'
 =render 'tabs'
+
 =render :partial => 'record', :locals => {title: t('record.longest_match'), player: @longest.player_by_user(@user), |
   value: duration_format(@longest.duration) |
 } |
