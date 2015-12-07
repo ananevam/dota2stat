@@ -1,3 +1,5 @@
+=render 'user_overview'
+=render 'tabs'
 =render :partial => 'record', :locals => {title: t('record.longest_match'), player: @longest.player_by_user(@user), |
   value: duration_format(@longest.duration) |
 } |
@@ -34,7 +36,11 @@
   value: how_k(@max_hh.hero_healing) |
 } |
 -#
-=render :partial => 'record', :locals => {title: t('record.most_td'), player: @max_hh, |
+=render :partial => 'record', :locals => {title: t('record.most_td'), player: @max_td, |
   value: how_k(@max_td.tower_damage) |
+} |
+-#
+=render :partial => 'record', :locals => {title: t('record.most_kda'), player: @max_kda, |
+  value: kda_format(@max_kda.kda_value) |
 } |
 -#

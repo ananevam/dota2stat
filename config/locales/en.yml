@@ -88,6 +88,7 @@ en:
     most_hd: "Most Hero Damage"
     most_hh: "Most Hero Healing"
     most_td: "Most Tower Damage"
+    most_kda: "Best KDA Ratio"
   team:
     dire: "Dire Team"
     radiant: "Radiant Team"

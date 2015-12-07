@@ -73,6 +73,8 @@ class PlayersController < ApplicationController
     @max_hd = Player.where(:account_id => @user.account_id).order(:hero_damage => :desc).first
     @max_hh = Player.where(:account_id => @user.account_id).order(:hero_healing => :desc).first
     @max_td = Player.where(:account_id => @user.account_id).order(:tower_damage => :desc).first
+    @max_kda = Player.select("players.*, ((players.kills + players.assists) / IF(players.deaths=0,1,players.deaths)) as kda_value")
+      .where(:account_id => @user.account_id).order("kda_value DESC").first
   end
 
   private
