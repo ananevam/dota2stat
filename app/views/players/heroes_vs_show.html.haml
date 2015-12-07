@@ -20,8 +20,17 @@
           %span.badge= @my_team[:count]
           =t('table.game_count')
         %li.list-group-item
-          %span.badge= kda_format(kda(@my_team[:kills], @my_team[:deaths], @my_team[:assists]))
+          %span.badge= kda_format(@my_team[:kda])
           =t('table.kda_ratio')
+        %li.list-group-item
+          %span.badge= @my_team[:last_hits]
+          =t('table.lh_tip')
+        %li.list-group-item
+          %span.badge= @my_team[:hero_damage]
+          =t('table.hd_tip')
+        %li.list-group-item
+          %span.badge= number_with_delimiter @my_team[:gold_earned]
+          =t('table.gold_tip')
 
   .col-md-6
     .panel.panel-default
@@ -34,5 +43,14 @@
           %span.badge= @enemy_team[:count]
           =t('table.game_count')
         %li.list-group-item
-          %span.badge= kda_format(kda(@enemy_team[:kills], @enemy_team[:deaths], @enemy_team[:assists]))
+          %span.badge= kda_format(@enemy_team[:kda])
           =t('table.kda_ratio')
+        %li.list-group-item
+          %span.badge= @enemy_team[:last_hits]
+          =t('table.lh_tip')
+        %li.list-group-item
+          %span.badge= @enemy_team[:hero_damage]
+          =t('table.hd_tip')
+        %li.list-group-item
+          %span.badge= number_with_delimiter @enemy_team[:gold_earned]
+          =t('table.gold_tip')
